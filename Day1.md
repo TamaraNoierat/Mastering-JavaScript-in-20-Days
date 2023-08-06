@@ -40,7 +40,4 @@ JS : is a programming language to web site , dynamic language , to make websites
 
 
 
-4- document.querySelectorAll("h1") // all h1 come back
-<div>
-5- document.getElementsByClassName(name) // <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/b061f25b-eafa-484a-a6a1-b6b777e64f81" width="300">
-</div>
+
