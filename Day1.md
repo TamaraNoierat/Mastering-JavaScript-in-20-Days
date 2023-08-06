@@ -17,7 +17,7 @@ JS : is a programming language to web site , dynamic language , to make websites
 
 
   
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/a895df98-2fdc-43cf-a3f3-04a17bd2b6cd"width="300">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/a895df98-2fdc-43cf-a3f3-04a17bd2b6cd" width="300">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/fd8705f5-510b-46ef-99a2-5690f2226fd7" width="300">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/2d0d1151-c033-4226-8495-059d0e3817fe" width="300">
   
@@ -29,6 +29,16 @@ JS : is a programming language to web site , dynamic language , to make websites
 2-document.querySelector("#example") 
 
 3-document.getElementsByTagName(name)  // come back first one
+
+
+4- document.querySelectorAll("h1") // all h1 come back
+
+5- document.getElementsByClassName(name) //
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4763f420-8594-4c1e-8d5c-4ccc2e994c15">
+
+
+
+
 
 4- document.querySelectorAll("h1") // all h1 come back
 <div>
