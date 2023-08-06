@@ -37,14 +37,14 @@ JS : is a programming language to web site , dynamic language , to make websites
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4763f420-8594-4c1e-8d5c-4ccc2e994c15" width="300">
 6- document.querySelectorAll(".hh") /
 
-*** ### .length
+ ### ***    .length
 
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/ead823aa-6fce-49d2-8f01-a956c88bae60" width="400">
 
 
 
-*** ### .text 
+ ### ***    .text 
 
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/95e04512-f176-47fc-b67d-73a44fb84a70" width="400">
