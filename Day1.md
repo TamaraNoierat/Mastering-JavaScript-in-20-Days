@@ -16,4 +16,7 @@ JS : is a programming language to web site , dynamic language , to make websites
 
 **** Finding HTML Elements:::
 1-document.getElementById(id)
-2-document.querySelector("#example") <
+2-document.querySelector("#example") 
+3-document.getElementsByTagName(name)  // come back first one
+4- document.querySelectorAll("h1") // all h1 come back
+5- document.getElementsByClassName(name) //
