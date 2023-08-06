@@ -13,3 +13,7 @@ JS : is a programming language to web site , dynamic language , to make websites
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/2d0d1151-c033-4226-8495-059d0e3817fe" width="300">
   
 </div>
+
+**** Finding HTML Elements:::
+1-document.getElementById(id)
+2-document.querySelector("#example") <
