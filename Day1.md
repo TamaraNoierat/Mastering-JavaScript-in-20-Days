@@ -184,9 +184,42 @@ JS : is a programming language to web site , dynamic language , to make websites
 
 # 19
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/685de1f7-2d57-43df-9f8d-e1e08e4373bb">
-.
+
+# 20
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/c034f66f-ca17-4f98-b4d1-8ca25b0dd57e">
+
+# 21
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/cccc4eae-2c48-449f-ac68-0702ca85b314">
+
+# 22
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/2107ae9b-774c-441e-9d28-2508d077bf65">
+
+# 23
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/fa8bc696-1e01-4780-bc2d-713795f69356">
+
+# 24
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/0eb0b4d2-3fd4-4e52-a439-f05bf9b9333d">
+
+# 25
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/822995ac-e699-43e0-9325-4fc76d267aa3">
+
+# 26
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/7ab375db-d22d-473c-a572-96857b83ad6b">
+
+# 27
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/dd2500a0-dba5-4e05-8918-bacf308452ec">
+
+# 28
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d16594d8-8ef0-41b8-ba71-253743155a5c">
+
+# 29 
+
+
+# 30
 
 
 
