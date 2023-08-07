@@ -35,7 +35,7 @@ JS : is a programming language to web site , dynamic language , to make websites
 
 5- document.getElementsByClassName(name) //
 
-< img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/2505e204-a42b-4d59-b3c5-61db53f4f541"width="488">
+
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4763f420-8594-4c1e-8d5c-4ccc2e994c15" width="300">
 
@@ -136,8 +136,13 @@ JS : is a programming language to web site , dynamic language , to make websites
 
 # 4
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/727cdf48-baa5-4f85-abbd-3b20ddd3aa66">
-
+<div>
+  
 # 5
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8dfd64ee-b44f-49af-9d9f-31895bbc4f19" width="300">
+  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6ee914a2-09e5-44b2-b6f1-43f87ce3f707" width="700">
+</div>
+  
 # 6
 
 # 7
