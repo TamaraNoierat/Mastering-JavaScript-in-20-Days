@@ -233,9 +233,11 @@ JS : is a programming language to web site , dynamic language , to make websites
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/cfb53a33-8286-4cca-92d5-598c7b91c46b">
 
 # 34
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/60004d24-5c16-49ad-b4f3-9f32453e3f56">
 
 
 # 35
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4355dfa6-31cc-431e-833f-d16f3ed35736">
 
 # 36
 # 37
