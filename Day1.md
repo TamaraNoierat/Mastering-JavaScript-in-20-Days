@@ -112,20 +112,30 @@ JS : is a programming language to web site , dynamic language , to make websites
 <div>
 
 
-
-
-
-
+### *** Editing the dom with JS
   ### 1
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/b0fd8357-8398-42e0-b7f5-19f9d97974e0" width="300">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/b0fd8357-8398-42e0-b7f5-19f9d97974e0" width="400">
 
 ### 2
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9656d856-a43e-43e7-89a1-a5f9acc49f63" width="300"> 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9656d856-a43e-43e7-89a1-a5f9acc49f63" width="400"> 
 
 ### 3
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f51d7de5-94b6-4ab6-b04a-7aa4d131ab22" width="300">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f51d7de5-94b6-4ab6-b04a-7aa4d131ab22" width="400">
 
 </div>
+
+# Exercises
+# 1
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/b92288dc-313b-4c32-80d4-c6322c0c6c89">
+
+# 2
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e7eb0924-6519-4cc2-aa81-ddf17b5c816b">
+
+# 3
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/67b9c90d-ba02-4620-bdc8-97055e889e93">
+
+
+
 
 
 
