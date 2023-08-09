@@ -35,6 +35,15 @@
 # Declaring and Assining Variables
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/32084397-007b-4244-a245-c8348e8a1527" width="455">
 
+#### The let declaration declares re-assignable, block-scoped local variables, optionally initializing each to a value.
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/ef143e47-e316-4bb2-8885-d026893cbf46">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e5403d75-722b-406e-8a86-1312269ba0a2">
+
+
+
+
 
 
 
