@@ -20,6 +20,9 @@
  indexof : find the first char in the string
 
  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e8561470-2ead-4986-9ec7-2ce3dcd8a109">
+
+ <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6bfcd9dc-f271-43bc-869f-d7173b67a8f2" width="455">
+ <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/b9ef4408-57fe-40d6-bb1c-c26b2427a9bf">
  
  
 
