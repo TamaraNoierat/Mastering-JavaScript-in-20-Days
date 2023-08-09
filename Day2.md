@@ -44,6 +44,72 @@
 
 ### The const declaration declares block-scoped local variables. The value of a constant can't be changed through reassignment using the assignment operator, but if a constant is an object, its properties can be added, updated, or removed.
 
+# Exercises:::
+# Q1:
+let a = 0;
+let b = "0";
+let c = false;
+let d = "false";
+
+console.log(a == b);
+console.log(b === c);
+console.log(!!d);
+
+
+
+
+## SOLUTION:
+
+console.log(a == b);
+Output: true
+Explanation: JavaScript converts the string "0" to a number 0, so they're equal.
+
+console.log(b === c);
+Output: false
+Explanation: The types are different, so strict equality (===) is false.
+
+console.log(!!d);
+Output: true
+Explanation: Double negation turns the non-empty string "false" into the boolean true.
+
+
+# Q2
+console.log(4 + 5 * "7");
+## SOLUTION:
+JavaScript first converts the string "7" to the number 7, then performs the multiplication, and finally adds the result to 4 to get the output of 39.
+
+# Q3:
+let result = 5 + 2 * 3 - 1;
+SOL:
+JavaScript first performs the multiplication, then the addition, and finally the subtraction to calculate the value of the expression, which is 10.
+
+# Q4:
+let x = 10;
+let y = '10';
+console.log(x == y);
+console.log(x === y);
+## SOLUTION:
+x == y is true because of type coercion (string '10' is converted to number 10).
+x === y is false because the types are different (number vs. string).
+
+
+# Q5::
+let num = "15";
+let isPositive = true;
+let result = (num > 10 && isPositive) || num < 0;
+console.log(result);
+
+
+
+## SOLUTION::
+The final result is true because the first part of the expression (num > 10 && isPositive) evaluates to true, and in a logical OR operation, if one part is true, the whole expression is true.
+
+
+
+
+
+
+
 
 
 
