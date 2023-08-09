@@ -17,6 +17,13 @@
  ### .length:  returns the length of a string.
  
  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/1b0bc134-ed06-47e4-89ab-ab23deaa2f31">
+ indexof : find the first char in the string
+
+ <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e8561470-2ead-4986-9ec7-2ce3dcd8a109">
+ 
+ 
+
+ 
 
 
 
