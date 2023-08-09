@@ -28,6 +28,10 @@
  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e18f8c2b-134d-49dc-b20b-aacaa2ccd1a2">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9c29a1ac-8869-4a80-b1bc-c5a30042ed19">
 
+# Operation
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d3f2ba44-90b6-4a08-b903-45fd662fd6de" width="455">
+
+
  
  
 
