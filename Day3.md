@@ -17,6 +17,11 @@ The Array object, as with arrays in other programming languages, enables storing
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/88088c52-38a5-4381-bc73-29256b244565" width="455">
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9287b387-ee3f-46db-a30c-b1a61d2be52b" width="666">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/a46bc130-13fa-4a3c-9d95-29baa43e6dcb" width="477">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/bbb40478-ac9d-4d19-aaf1-8e4160812268" width="555">
+
+
 
 
 
