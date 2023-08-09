@@ -23,6 +23,11 @@
 
  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6bfcd9dc-f271-43bc-869f-d7173b67a8f2" width="455">
  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/b9ef4408-57fe-40d6-bb1c-c26b2427a9bf">
+ <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/0277d408-bcee-48c2-99b8-e5444e2776bc">
+
+ <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e18f8c2b-134d-49dc-b20b-aacaa2ccd1a2">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9c29a1ac-8869-4a80-b1bc-c5a30042ed19">
+
  
  
 
