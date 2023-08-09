@@ -42,6 +42,11 @@
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e5403d75-722b-406e-8a86-1312269ba0a2">
 
 
+### The const declaration declares block-scoped local variables. The value of a constant can't be changed through reassignment using the assignment operator, but if a constant is an object, its properties can be added, updated, or removed.
+
+
+
+
 
 
 
