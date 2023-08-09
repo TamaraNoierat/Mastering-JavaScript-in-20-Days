@@ -31,6 +31,12 @@
 # Operation
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d3f2ba44-90b6-4a08-b903-45fd662fd6de" width="455">
 
+# Expressions
+# Declaring and Assining Variables
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/32084397-007b-4244-a245-c8348e8a1527" width="455">
+
+
+
 
  
  
