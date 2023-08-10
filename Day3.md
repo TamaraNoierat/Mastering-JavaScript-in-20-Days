@@ -31,6 +31,10 @@ The Array object, as with arrays in other programming languages, enables storing
 
 ### const for things that stay the same, and use let for things that can change.
 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d1bbdf69-0e70-45fe-820d-8b7c6ace94a5" width="555">
+
+
+
 
 
 
