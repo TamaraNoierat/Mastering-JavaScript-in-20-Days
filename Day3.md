@@ -33,6 +33,15 @@ The Array object, as with arrays in other programming languages, enables storing
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d1bbdf69-0e70-45fe-820d-8b7c6ace94a5" width="555">
 
+### The Object type represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. Objects can be created using the Object() constructor or the object initializer / literal syntax.
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/651285f0-c4f9-448e-b723-55ba9572e979" width="444">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6eddc93d-c3e9-4346-9a62-26cb2587010f" width="444">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9782f876-9258-44c3-a238-0671c32d956f">
+
+
+
 
 
 
