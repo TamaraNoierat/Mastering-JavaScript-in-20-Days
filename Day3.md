@@ -25,6 +25,12 @@ The Array object, as with arrays in other programming languages, enables storing
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8217cdca-fa39-4730-9044-577aa4f27196">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e071c5a0-effa-4fcb-835b-6fbac58e8cd0" width="555">
 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6e42302d-8eb6-418b-afd5-87ffa8a04517">
+
+### .push() adds elements to the end of an array and changes the original array, while .concat() combines arrays into a new array without modifying the original arrays.
+
+### const for things that stay the same, and use let for things that can change.
+
 
 
 
