@@ -15,6 +15,15 @@
 
 ### a promise in JavaScript is like a special container for something that will happen later. It's used when you're doing things that take time, like getting data from a website. The promise says, "I promise to give you the data when it's ready." Once the data is ready, you can use it in your code. It's a way to manage tasks that need some time to finish.
 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/b3878943-387a-4c2e-995a-b9ef67366960">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d87a5433-fe73-456f-abd1-a1e65dea6fae" width="555">
+fetch("url"): This part of the code is making an HTTP request to the specified URL. It's asking the server at that URL to send some data back. The fetch function returns a promise that represents the response from the server.
+
+await: The await keyword is used in front of the fetch function. It tells JavaScript to wait until the promise returned by the fetch function is resolved (the response is received) before moving on to the next line of code.
+
+let response: This declares a variable named response to store the result of the fetch operation. Once the promise is resolved, the actual response from the server will be stored in this variable.
+
 
 
 
