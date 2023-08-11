@@ -61,6 +61,11 @@ const { firstName, age } = person;
 
 
 # Modules
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/79b5475d-f2b2-4efc-a308-28712bcf3fe4">
+<imd src="![image](https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/fdced6b3-3ad7-4800-862c-03c1c95b130f">
+
+
+
 
 
 
