@@ -24,6 +24,42 @@ await: The await keyword is used in front of the fetch function. It tells JavaSc
 
 let response: This declares a variable named response to store the result of the fetch operation. Once the promise is resolved, the actual response from the server will be stored in this variable.
 
+response have a method called JSON:
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4bce8bb9-0d20-4fba-82b8-ef17340926d5">
+
+let response = await fetch("url");
+let data = await response.json();
+##### In this code, after making a fetch request and receiving a response, the .json() method is used to convert the response body (which is in JSON format) into a JavaScript object. This makes it much easier to interact with the data and access its properties.
+# Destructuring
+###  destructuring : is like picking out the parts you need from a collection of data, making your code cleaner and more focused.
+
+## ex:
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 30,
+};
+const { firstName, age } = person;
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e09e4a76-e3bb-47d4-bb58-73723bef3449" width=""355>
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/3cf41759-c92d-4b84-bea5-93f8efea0e91" width="455">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8ebf8a06-55ae-40c8-84a7-689f0f709d8a" width="455">
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
