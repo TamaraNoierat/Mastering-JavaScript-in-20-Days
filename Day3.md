@@ -56,7 +56,7 @@ The Array object, as with arrays in other programming languages, enables storing
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/7e738fb0-f13e-41f6-8335-d3d11cc1f4d5" width="344">
 حل السؤال التاني
-img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/20130ee9-1270-49a4-98ea-125077f034fe width="333"">
+img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/20130ee9-1270-49a4-98ea-125077f034fe width="333">
 
 
 
