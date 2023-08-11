@@ -59,8 +59,8 @@ const { firstName, age } = person;
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8c8413b5-4a58-444f-a7a3-b0e63ebccd58" width="455">
 
 
-==================================================================================
 
+# Modules
 
 
 
