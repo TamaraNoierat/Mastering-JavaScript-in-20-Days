@@ -58,6 +58,13 @@ The Array object, as with arrays in other programming languages, enables storing
 حل السؤال التاني
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/20130ee9-1270-49a4-98ea-125077f034fe width="333"">
 
+### The Math namespace object contains static properties and methods for mathematical constants and functions.
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/3c13e466-b453-44d6-af1f-71189cec06e7" width="444">
+
+# Exercises::::
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4f351e3e-c47a-4312-92cf-e0ab185e0156">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/cd5d097a-e10a-4a88-9f4f-091bea31c947">
 
 
 
