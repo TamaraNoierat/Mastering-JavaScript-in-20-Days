@@ -48,6 +48,20 @@ const { firstName, age } = person;
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8ebf8a06-55ae-40c8-84a7-689f0f709d8a" width="455">
 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6d2ee08c-c9a0-4f18-b6f9-0a7ba15bb11e" width="344">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/649e253f-801c-4de2-ab7a-7dc16b6455be" width="355">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/89586cd3-bdc9-4e62-b145-3fbc4193ff6f" width="355">
+
+
+
+
+
+
+
+
+
+
 
 
 
