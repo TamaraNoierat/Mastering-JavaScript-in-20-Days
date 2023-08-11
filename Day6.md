@@ -49,9 +49,17 @@ const { firstName, age } = person;
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8ebf8a06-55ae-40c8-84a7-689f0f709d8a" width="455">
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6d2ee08c-c9a0-4f18-b6f9-0a7ba15bb11e" width="344">
+شرح الصورة في الاعلى 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/649e253f-801c-4de2-ab7a-7dc16b6455be" width="355">
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/89586cd3-bdc9-4e62-b145-3fbc4193ff6f" width="355">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/798d7710-2c94-4e32-a8ac-fe8db1ebc4c8" width="455">
+شرح الصورة::
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8c8413b5-4a58-444f-a7a3-b0e63ebccd58" width="455">
+
+
+
 
 
 
