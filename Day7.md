@@ -1,4 +1,5 @@
 # JavaScript principles
+JavaScript principles are like the basic rules or ideas that help you understand how JavaScript works. Imagine you're learning to play a new game. The game has some fundamental principles that guide how you play and understand it. Similarly, JavaScript has principles that guide how you write and use code in this programming language. These principles make sure your code behaves as you expect and helps you build useful and interactive things on websites.
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/037a20ed-01fb-4432-a86c-686a3035f44f">
 
 
