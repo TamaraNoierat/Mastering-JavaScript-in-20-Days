@@ -17,6 +17,29 @@ Link user1 and functionStore so the interpreter, on not finding .increment, make
 sure to check up in functionStore where it would find it
 Make the link with Object.create() technique
 
+#### the code must be :
+1. Easy to reason about
+But also
+2. Easy to add features to (new functionality)
+3. Nevertheless efficient and performant
+The Object-oriented paradigm aims is to let us achieve these three goals
+
+============================
+Using the prototype chain
+Store the increment function in just one object and have the interpreter, if it
+doesn't find the function on user1, look up to that object to check if it's there
+Link user1 and functionStore so the interpreter, on not finding .increment, makes
+sure to check up in functionStore where it would find it
+Make the link with Object.create() technique
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/def4b392-261a-48a8-bcc6-7b2ec77fb192">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/a72c5691-1ef2-4fe2-b3b2-692aeb41546a">
+
+
+
+
 
 
 
