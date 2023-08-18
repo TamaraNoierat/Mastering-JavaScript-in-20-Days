@@ -38,6 +38,38 @@ Make the link with Object.create() technique
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/a72c5691-1ef2-4fe2-b3b2-692aeb41546a">
 
 
+##### What if we want to confirm our user1 has the property score?
+
+We can use the hasOwnProperty method - but where is it? Is it on user1?
+All objects have a __proto__ property by default which defaults to linking to a big
+object - Object.prototype full of (somewhat) useful functions
+We get access to it via userFunctionStore’s __proto__ property - the chain
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/adbc88c6-4db4-4a54-9ed9-0b260692aad1">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f5ae4c76-8e32-46a2-8a1d-56923f48f8fb">
+=====================================
+Arrow functions override the normal this rules
+function userCreator(name, score) {
+ const newUser = Object.create(userFunctionStore);
+ newUser.name = name;
+ newUser.score = score;
+ return newUser;
+};
+const userFunctionStore = {
+ increment: function() {
+ const add1 = () => { this.score++; }
+ add1()
+ }
+};
+const user1 = userCreator("Will", 3);
+const user2 = userCreator("Tim", 5);
+user1.increment();
+
+
+
+
 
 
 
