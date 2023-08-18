@@ -50,22 +50,13 @@ We get access to it via userFunctionStore’s __proto__ property - the chain
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f5ae4c76-8e32-46a2-8a1d-56923f48f8fb">
 =====================================
-Arrow functions override the normal this rules
-function userCreator(name, score) {
- const newUser = Object.create(userFunctionStore);
- newUser.name = name;
- newUser.score = score;
- return newUser;
-};
-const userFunctionStore = {
- increment: function() {
- const add1 = () => { this.score++; }
- add1()
- }
-};
-const user1 = userCreator("Will", 3);
-const user2 = userCreator("Tim", 5);
-user1.increment();
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/67740232-dd57-4339-ba25-b98e7f10ab27">
+It creates a user named "Will" with a score of 3.
+It creates another user named "Tim" with a score of 5.
+It tells the first user (Will) to increase the score. This works because of the arrow function trick. So, Will's score becomes 4
+
+
+===================================================
 
 
 
