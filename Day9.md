@@ -4,7 +4,7 @@ JavaScript is:
 - Synchronously executed (each line is run in order the code appears)
 
   ## setTimeout is a built in function - its first argument is the function to delay followed by ms to delay by
-<img src="https://github.com/mahaalqerem/Mastering-JavaScript-in-20-Days/assets/138065974/755e7c0f-0529-4198-8ff2-5d52f9897440">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/48e9805c-ffb0-4b25-baf6-05f4fbaa31aa">
 
 ### JavaScript is not enough - We need new pieces (some of which aren’t JavaScript at all)
 
@@ -17,7 +17,7 @@ We need to add some new components:
 - Promises
 - Event loop, Callback/Task queue and micro task queue
 - 
-  <img src="https://github.com/mahaalqerem/Mastering-JavaScript-in-20-Days/assets/138065974/0321994c-553c-4f8f-b1f4-778bee6a4972">
+  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d8075fb6-41f9-4358-9dcc-9ac603dff6c4">
 # Web API rules
 URLs: APIs have special web addresses (URLs) for different tasks or data.
 
@@ -57,7 +57,7 @@ Benefits
 
 ## ES6+ Solution (Promises)
 
-<img src="https://github.com/mahaalqerem/Mastering-JavaScript-in-20-Days/assets/138065974/18298585-486d-4773-936b-b1fc5797e7e4">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6b99658c-677a-4d79-8b70-512562710147">
 
 Special objects built into JavaScript that get returned immediately when we make
 a call to a web browser API/feature (e.g. fetch) that’s set up to return promises
@@ -101,23 +101,23 @@ letting us build fast ‘non-blocking’ applications
 ***************
 ## Objects - store functions with their associated data!
 
-<img src="https://github.com/mahaalqerem/Mastering-JavaScript-in-20-Days/assets/138065974/1ec1110b-cb7c-40ee-a70e-68ea475ce005">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/97fda6da-c01c-48de-9813-29be04c5c770">
 
 ### The prototype chain enables efficient memory usage and supports the concept of "inheritance," allowing objects to share common behavior and avoid redundancy in property and method definitions. Understanding the prototype chain is essential for effective object-oriented programming in JavaScript.
 
-### example:
 
-<img src=" https://github.com/mahaalqerem/Mastering-JavaScript-in-20-Days/assets/138065974/49f16c4b-1477-4b9a-9eb2-ab996e778560">
+
+<img src=" ">
 
 ## Declaring & calling a new function inside our ‘method’ increment
 
-<img src="https://github.com/mahaalqerem/Mastering-JavaScript-in-20-Days/assets/138065974/f1f5725b-e05c-4835-bffd-e9b37952ae5b">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/3b2f52e4-ff8b-4a10-8eb7-67c875d40316">
 
 In summary, when declaring and calling a new function inside a method, it's important to understand how the value of this is determined and ensure it's pointing to the right context, especially when you're accessing properties of an object.
 
 ## Arrow functions override the normal this rules
 
-<img src="https://github.com/mahaalqerem/Mastering-JavaScript-in-20-Days/assets/138065974/88e7916a-9594-4abc-b4ae-430fd41cc555">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/53abdf7a-148a-470d-b1d7-8bb8c1112013">
 
 #### Arrow functions are a powerful feature in modern JavaScript that make writing functions more concise, especially for simple operations. However, it's important to be aware of the differences in how this is handled compared to traditional function expressions, especially when using arrow functions as methods or in certain contexts.
 
@@ -125,18 +125,18 @@ In summary, when declaring and calling a new function inside a method, it's impo
 # Q1
 ## solotion:
 
-<img src="https://github.com/mahaalqerem/Mastering-JavaScript-in-20-Days/assets/138065974/0b20a54d-5c8e-4e5c-974d-5941f4c9e03c">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/c21796fc-b275-4fbb-bd0d-5a754b30572b">
 
 
 
 # Q2
 ## solution:
 
-<img src="https://github.com/mahaalqerem/Mastering-JavaScript-in-20-Days/assets/138065974/d5ad1076-7cea-4c57-a6d9-02398fa9dfdc">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d6a88fcc-a8f9-4bcb-bf1b-0db926f24faa">
 
 # Q3
 ## solution:
 
-<img src="https://github.com/mahaalqerem/Mastering-JavaScript-in-20-Days/assets/138065974/f397d9ae-a2b9-4e01-b01a-e08bdb59b45d">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/10507299-9cb6-4f6e-8be2-94e6d5f751e6">
 
 
