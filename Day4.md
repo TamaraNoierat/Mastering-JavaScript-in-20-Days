@@ -9,6 +9,7 @@ Functions can accept input values (parameters) and return an output value.
 
 # Parameters:
 
+
 Parameters are variables listed in the function's parentheses when defining it.
 They act as placeholders for the values that the function will receive when it's called.
 Parameters are like labels for values that a function needs to work with.
