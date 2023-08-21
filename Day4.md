@@ -13,6 +13,8 @@ They act as placeholders for the values that the function will receive when it's
 Parameters are like labels for values that a function needs to work with.
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/0bae1135-8815-4b7f-b604-ad09129ca7b7">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4828897b-3987-4667-aff0-477e996bd17f">
+بالحالتين رح يعطيني ايرور التانية لانو بلشت اسم الفاريابل برقم
+
 
 # Arguments:
 
