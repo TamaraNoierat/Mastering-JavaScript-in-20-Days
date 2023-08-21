@@ -11,6 +11,7 @@ Functions can accept input values (parameters) and return an output value.
 Parameters are variables listed in the function's parentheses when defining it.
 They act as placeholders for the values that the function will receive when it's called.
 Parameters are like labels for values that a function needs to work with.
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/0bae1135-8815-4b7f-b604-ad09129ca7b7">
 
 # Arguments:
 
