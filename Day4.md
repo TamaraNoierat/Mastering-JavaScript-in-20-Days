@@ -58,6 +58,9 @@ Or, for very short functions:
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/19b1f734-6849-4317-916b-f8b942d07661">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/eb20c075-beb2-4c72-9161-d9fd5c2d7a2c" width="344">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8deb9fba-6156-4da0-85e5-748d21a73ece width="344">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/77c9c756-9267-4f25-b6d2-0d58b1ee7464">
+
+
 
 **************
 
