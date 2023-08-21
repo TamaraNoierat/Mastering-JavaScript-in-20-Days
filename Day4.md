@@ -78,7 +78,8 @@ button.setAttribute("disabled", true);
 
 ```
 sol:
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/660cf6c5-6af3-4798-8f90-7c2aeec4b707 width="344">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/660cf6c5-6af3-4798-8f90-7c2aeec4b707">
+
 If you want to remove an attribute, you can use the removeAttribute function:
 ```
 // Remove the "disabled" attribute
