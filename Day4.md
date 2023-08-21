@@ -6,6 +6,7 @@ A function is a block of code that can be executed when called (invoked).
 Functions are used to perform specific tasks or calculations.
 Functions can accept input values (parameters) and return an output value.
 
+
 # Parameters:
 
 Parameters are variables listed in the function's parentheses when defining it.
