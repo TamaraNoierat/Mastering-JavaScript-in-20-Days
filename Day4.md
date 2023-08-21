@@ -62,13 +62,30 @@ Or, for very short functions:
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/158876b5-5d96-430b-aa80-c9e0d4d7e410" width="455">
 
 
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/16871942-59e7-475e-9e7d-098ccd4fbdca">
+Setting an attribute in JavaScript means adding or changing a specific attribute of an HTML element
 ```
-const addAndLog = (x, y) => {
-    let sum = x + y; 
-    console.log('The sum is', sum);
-    return sum;
-}
+<button id="myButton">Click me</button>
 ```
+
+```
+// Get a reference to the button element
+const button = document.getElementById("myButton");
+
+// Set the "disabled" attribute to true
+button.setAttribute("disabled", true);
+
+```
+sol:
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/660cf6c5-6af3-4798-8f90-7c2aeec4b707 width="344">
+If you want to remove an attribute, you can use the removeAttribute function:
+```
+// Remove the "disabled" attribute
+button.removeAttribute("disabled");
+
+```
+
 
 
 
