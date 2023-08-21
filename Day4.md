@@ -17,7 +17,11 @@ Parameters are like labels for values that a function needs to work with.
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/c457df04-7ade-4c20-a3f4-3b86c0cbb013">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/2806dbab-89b8-479a-93fc-21183d0affaf">
 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d36c2bad-7831-4abc-aab8-7fe4fceb5b49">
 
+### sol:
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/28df14d1-2bda-431a-8f6a-420130025542" width="444">
+  
 # Arguments:
 
 Arguments are the actual values that are passed to a function when it's called.
