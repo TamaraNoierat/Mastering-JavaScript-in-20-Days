@@ -230,13 +230,32 @@ document.addEventListener("click", () => {
     console.log("clicked")
 });
 ```
-whenever you click anywhere on the web page, the "click" event will be detected, and the message "clicked" will be logged to the browser's console.
+explian the ex: whenever you click anywhere on the web page, the "click" event will be detected, and the message "clicked" will be logged to the browser's console.
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/47ab250c-9607-4f3a-b9d9-80993f1a2e2c">
 
 Event Handling: The code that runs when an event occurs is called the event handler. It's like a set of instructions for what to do when an event happens.
 
 Event Objects: When an event occurs, it creates an object containing details about the event. This helps your code understand what happened.
+
+
+```
+const button = document.getElementById("clickme");
+const paragraphs = document.querySelectorAll("p");
+
+button.addEventListener("click", event => {
+  for (let p of paragraphs) {
+    p.classList.toggle("hidden");
+  }
+})
+```
+explain:The JavaScript code uses the classList.toggle() method to add or remove the "hidden" class, effectively showing or hiding the paragraphs based on their current visibility state.
+
+
+
+
+
+
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/40e30276-e731-474f-bb9d-1484e6b80a84">
 
