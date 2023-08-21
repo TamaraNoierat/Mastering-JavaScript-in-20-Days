@@ -102,7 +102,67 @@ Get the HTML element you want to remove the attribute from, using methods like d
 Call the removeAttribute() method on the element and pass the name of the attribute you want to remove as an argument.
 
 # scope
-Scope in JavaScript refers to where you can access variables. It determines the visibility and lifespan of variables within your code.
+In JS it doesn't just matter what variables we declare
+It also matters where we declare them
+Scope determines where variables are "in play"
+
+```
+function declareBankruptcy() {
+    let bankruptcy = true;
+}
+declareBankruptcy();
+console.log(bankruptcy);
+```
+في هاد الكود رح يعطي ايرور لانو المتغير لسا مش معرف  declare
+
+#### Scopes are nested within the program The widest scope is the global scope ,Each function gets its own new scope within the scope where it was declared
+
+### Scope in JavaScript refers to where you can access variables. It determines the visibility and lifespan of variables within your code.
+```
+let planet = "Jupiter";
+function scopeOut() {
+    let planet = "Mars";
+    console.log("Inner planet:", planet);
+}
+scopeOut();
+console.log("Outer planet:", planet);
+```
+output:
+
+### Inner planet: Mars
+### Outer planet: Jupiter
+
+***********************************8
+Scope in programming refers to the area of code where a variable is accessible and can be used. In JavaScript, you can think of scope as a set of boundaries that determine where a variable can be seen and used.
+
+## "Within each scope, you can access variables declared in a wider scope (e.g. global scope)":
+
+This means that if you have a variable declared outside of a function (in the global scope), you can access that variable from within the function. For example:
+```
+let globalVariable = 42;
+
+function myFunction() {
+    console.log(globalVariable); // You can access globalVariable here
+}
+
+myFunction();
+
+```
+=====================
+### But not those declared in a narrower scope (e.g. function scope)":
+This means that variables declared inside a function are only accessible within that function (function scope). They are not visible or accessible from outside the function. For example:
+```
+function myFunction() {
+    let localVariable = "I am local";
+    console.log(localVariable); // You can access localVariable here
+}
+
+myFunction();
+
+console.log(localVariable); // This will result in an error because localVariable is not accessible here
+
+```
+
 
 ### Global Scope:
 Variables declared outside any function or block have global scope. They can be accessed from anywhere in your code, including inside functions.
