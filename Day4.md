@@ -60,14 +60,14 @@ Or, for very short functions:
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8deb9fba-6156-4da0-85e5-748d21a73ece width="344">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/158876b5-5d96-430b-aa80-c9e0d4d7e410" width="455">
 
-ex :
-'''
+ex Git:
+```
 const addAndLog = (x, y) => {
     let sum = x + y; 
     console.log('The sum is', sum);
     return sum;
 }
-'''
+```
 
 
 
