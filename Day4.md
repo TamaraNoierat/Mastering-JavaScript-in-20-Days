@@ -35,6 +35,12 @@ When you call a function, you provide arguments that match the order and number 
 
 # Arrow function
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f851e575-e1e5-40ca-8302-832495561923" width="555">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/38ad7e99-7945-44cb-97a8-26b05437f496" width="555">
+
+### Arrow functions are great when we just want to return a value
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/b350dc7e-abd4-4a65-836b-a337aa7d2c10" width="555">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/c62b0fcd-3862-4926-9340-f0f4bb5ad8d3" width="666">
 
 An arrow function in JavaScript is a shorter way to write a function using the => syntax. It's great for concise functions and keeps the value of this consistent. Here's how it looks:
 
