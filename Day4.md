@@ -86,6 +86,10 @@ If you want to remove an attribute, you can use the removeAttribute function:
 button.removeAttribute("disabled");
 
 ```
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/61563053-2405-4f87-a4f8-0cb7917b1a40 ">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f08884ff-0d40-44d0-9c42-406943fc1418">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6b68450f-771d-48d1-8554-dee8684a1fba">
+
 
 
 
