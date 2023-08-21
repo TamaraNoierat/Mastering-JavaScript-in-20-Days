@@ -174,8 +174,21 @@ Variables declared outside any function or block have global scope. They can be 
 Variables declared with let and const inside blocks (like loops or conditionals) have block scope. They are limited to that specific block.
 
 ## let and scope
+### Variables declared with let can be modified from within a narrower scope ,This can be useful, but also dangerous!
 
-In JavaScript, let is a keyword used to declare variables with block-level scope. This means that a variable declared with let is only accessible within the block of code where it's defined. 
+In JavaScript, let is a keyword used to declare variables with block-level scope. This means that a variable declared with let is only accessible within the block of code where it's defined.
+```
+let feeling = "free";
+function trap() {
+    feeling = "boxedIn";
+}
+trap();
+console.log(feeling);
+```
+## output:  boxedIn
+explain:
+the variable feeling is modified within the trap() function, and this modified value is reflected when you log it using console.log after calling the function. The variable feeling is in the outer/global scope, so it can be accessed and modified from within the trap() function.
+
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/98b4324d-7e43-4ba5-8fb0-7adb15db85a5">
 
