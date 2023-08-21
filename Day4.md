@@ -21,6 +21,7 @@ Parameters are like labels for values that a function needs to work with.
 
 ### sol:
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/28df14d1-2bda-431a-8f6a-420130025542" width="444">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/023aeab2-a2e4-4c75-9f73-c46602c0180e" width="444">
   
 # Arguments:
 
