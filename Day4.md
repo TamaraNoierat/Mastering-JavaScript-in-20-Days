@@ -14,8 +14,8 @@ Parameters are like labels for values that a function needs to work with.
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/0bae1135-8815-4b7f-b604-ad09129ca7b7">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4828897b-3987-4667-aff0-477e996bd17f">
 بالحالتين رح يعطيني ايرور التانية لانو بلشت اسم الفاريابل برقم
-
-<img src=
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/c457df04-7ade-4c20-a3f4-3b86c0cbb013">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/2806dbab-89b8-479a-93fc-21183d0affaf">
 
 # Arguments:
 
