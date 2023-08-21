@@ -45,6 +45,12 @@ When you call a function, you provide arguments that match the order and number 
 
 An arrow function in JavaScript is a shorter way to write a function using the => syntax. It's great for concise functions and keeps the value of this consistent. Here's how it looks:
 
+#### If we need to do more than just return a value,
+
+#### we can use curly braces for a "normal" function body
+
+#### In that case, we still need a return
+
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/2e939e09-7f4c-41d8-8bbc-e15ec179c39a">
 
 Or, for very short functions:
