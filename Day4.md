@@ -34,6 +34,7 @@ When you call a function, you provide arguments that match the order and number 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/eb895c34-a95c-45a9-9814-d9e06c1e3abf">
 
 # Arrow function
+
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f851e575-e1e5-40ca-8302-832495561923" width="555">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/38ad7e99-7945-44cb-97a8-26b05437f496" width="555">
 
