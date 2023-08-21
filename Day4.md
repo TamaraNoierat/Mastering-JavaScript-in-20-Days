@@ -34,6 +34,7 @@ When you call a function, you provide arguments that match the order and number 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/eb895c34-a95c-45a9-9814-d9e06c1e3abf">
 
 # Arrow function
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f851e575-e1e5-40ca-8302-832495561923" width="555">
 
 An arrow function in JavaScript is a shorter way to write a function using the => syntax. It's great for concise functions and keeps the value of this consistent. Here's how it looks:
 
