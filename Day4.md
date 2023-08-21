@@ -188,13 +188,49 @@ console.log(feeling);
 ## output:  boxedIn
 explain:
 the variable feeling is modified within the trap() function, and this modified value is reflected when you log it using console.log after calling the function. The variable feeling is in the outer/global scope, so it can be accessed and modified from within the trap() function.
+*****************************
+The Temporal Dead Zone (TDZ) is a concept in JavaScript that refers to the period between the entering of scope and the actual declaration of a variable using let or const. During this phase, if you try to access the variable, you'll get a ReferenceError.
+
+To understand this better, let's break it down step by step:
+
+Declaration Phase: When JavaScript starts executing a scope (a block of code enclosed by curly braces), it scans through the code to find variable and function declarations. Variables declared with var are hoisted and initialized with undefined, and variables declared with let or const are hoisted but not initialized.
+
+Temporal Dead Zone: Between the start of the scope and the actual declaration of a let or const variable, a "dead zone" exists. During this phase, any attempt to access the variable results in a ReferenceError.
+
+Initialization: Once the code execution reaches the point of the actual declaration, the variable is formally created and assigned its value.
+
+Here's an example to illustrate the Temporal Dead Zone:
+```
+console.log(a); // This will result in a ReferenceError
+
+let a = 10; // Variable declaration and initialization
+
+```
+In this example, even though a is declared with let, accessing it before the declaration line will lead to a ReferenceError due to the Temporal Dead Zone. The variable a is within the scope, but it's not yet initialized.
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6873bfe3-b7b9-4175-86d8-33001ff8a2dc">
+
+
+
 
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/98b4324d-7e43-4ba5-8fb0-7adb15db85a5">
 
-## event
+
+# Events & Handlers
+
 Events in JavaScript are things that happen on a webpage, like clicking a button, moving the mouse, or submitting a form. They allow you to make your webpage interactive and responsive.
 Listening for Events: You can tell your code to "listen" for specific events on certain elements. When the event occurs, your code can respond.
+
+
+*******************
+```
+document.addEventListener("click", () => {
+    console.log("clicked")
+});
+```
+whenever you click anywhere on the web page, the "click" event will be detected, and the message "clicked" will be logged to the browser's console.
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/47ab250c-9607-4f3a-b9d9-80993f1a2e2c">
 
