@@ -67,9 +67,10 @@ x = true;    // Now, x holds a boolean value, so its type is "boolean."
 ### NaN stands for "not a number." It's a special value that represents the result of an operation that should produce a number, but for some reason, the result isn't a valid number.
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6e9904d6-f9b7-40bf-ba90-252c72cd1967" width="355">
-```
+
 
 // if you use the typeof operator on NaN, it will return "number"
+```
 console.log(typeof NaN);  // Outputs: "number"
 ```
 
