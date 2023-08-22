@@ -46,5 +46,19 @@ Custom Objects: Objects created using constructor functions or classes.
 Built-in Objects: Objects provided by the JavaScript environment, like Date, RegExp, Math, etc.
 
 
+## In JavaScript, variables don't have types, values do:
+thats mean:the type of data is determined by the value that is stored in a variable, rather than by the variable itself.
+
+```
+let x;       // Here, x doesn't have a specific type yet.
+x = 5;       // Now, x holds a number value, so its type is "number."
+x = "Hello"; // Now, x holds a string value, so its type is "string."
+x = true;    // Now, x holds a boolean value, so its type is "boolean."
+
+```
+<div>
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/b539f652-7921-4aa0-99b9-c9ba3f39bfa4" width="344">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/ea52833b-ea5e-4a59-8c5a-b3f42043252c"width="344">
+</div>
 
 
