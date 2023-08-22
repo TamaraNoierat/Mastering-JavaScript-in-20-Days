@@ -25,10 +25,15 @@ let b = ++a; // a will be 11, b will be 11
 Primitive data types include:
 
 Number: Represents both integer and floating-point numbers.
+
 String: Represents sequences of characters.
+
 Boolean: Represents true or false values.
+
 Undefined: Represents a variable that has been declared but hasn't been assigned a value.
+
 Null: Represents the intentional absence of any value.
+
 Symbol: Represents a unique and immutable value that can be used as an object property.
 
 
