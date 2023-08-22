@@ -64,5 +64,21 @@ x = true;    // Now, x holds a boolean value, so its type is "boolean."
 ## Undefined: Declared, but no value assigned yet.
 ## Undeclared: Variable used without being declared first.
 ## Uninitialized: Declared, but not given an initial value.
+### NaN stands for "not a number." It's a special value that represents the result of an operation that should produce a number, but for some reason, the result isn't a valid number.
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6e9904d6-f9b7-40bf-ba90-252c72cd1967" width="355">
+```
+// if you use the typeof operator on NaN, it will return "number"
+console.log(typeof NaN);  // Outputs: "number"
+```
+
+```
+Object.is(value1, value2);
+
+```
+This method is used to determine if two values are the same. It's similar to the === (strict equality) operator, but with a few differences in how it handles certain special values like NaN and negative zero.
+The method returns true if the values are the same, considering special cases like NaN and negative zero.
+The method returns false if the values are not the same.
+
 
 
