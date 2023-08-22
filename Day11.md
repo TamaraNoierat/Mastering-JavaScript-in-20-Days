@@ -86,6 +86,17 @@ The method returns false if the values are not the same.
 
 
 
+*******************************
+ the Math.sign() function is used to determine the sign of a number. It returns a value indicating whether the number is positive, negative, or zero. The function returns one of three possible values:
+
+If the number is positive, Math.sign() returns 1.
+If the number is negative, Math.sign() returns -1.
+If the number is zero, Math.sign() returns 0.
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4e82c66b-144d-4afb-8592-ec54000a0f96" width="444">
+
+
+
+
 
 
 
