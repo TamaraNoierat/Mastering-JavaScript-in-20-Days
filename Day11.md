@@ -95,6 +95,10 @@ If the number is zero, Math.sign() returns 0.
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4e82c66b-144d-4afb-8592-ec54000a0f96" width="444">
 
 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d4710ad1-cdfe-4fd1-ae67-fe10ffc56125" width="444">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f421fab6-ffa1-4d6a-be0c-200bed3773c7">
+
+
 
 
 
