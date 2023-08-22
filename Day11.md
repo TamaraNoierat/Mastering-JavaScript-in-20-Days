@@ -15,6 +15,9 @@ let a = 10;
 let b = ++a; // a will be 11, b will be 11
 
 ```
+<div>
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/abed7245-d0f0-4389-a538-c337909e70f1" width="355">
 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/a7d667f5-4c51-4969-bae2-d83fae6323b8" width="333">
 
+</div>
