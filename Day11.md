@@ -2,6 +2,7 @@
 Postfix Operators:
 Postfix operators are applied after the operand. The most common example in JavaScript is the increment (++) and decrement (--) operators. When used postfix, they increase or decrease the value of the operand after the value is evaluated.
 ex:
+
 ```
 let x = 5;
 let y = x++; // y will be 5, x will be 6
