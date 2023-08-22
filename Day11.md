@@ -5,7 +5,6 @@ ex:
 ```
 let x = 5;
 let y = x++; // y will be 5, x will be 6
-
 ```
 Prefix Operators:
 Prefix operators are applied before the operand. In JavaScript, the increment (++) and decrement (--) operators can also be used as prefix operators. When used as prefix, they increase or decrease the value of the operand before the value is evaluated.
