@@ -78,7 +78,7 @@ console.log(typeof NaN);  // Outputs: "number"
 ```
 Object.is(value1, value2);
 ```
-This method is used to determine if two values are the same. It's similar to the === (strict equality) operator, but with a few differences in how it handles certain special values like NaN and negative zero.
+Object.is:This method is used to determine if two values are the same. It's similar to the === (strict equality) operator, but with a few differences in how it handles certain special values like NaN and negative zero.
 The method returns true if the values are the same, considering special cases like NaN and negative zero.
 The method returns false if the values are not the same.
 
