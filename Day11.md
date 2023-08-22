@@ -70,17 +70,27 @@ x = true;    // Now, x holds a boolean value, so its type is "boolean."
 
 
 // if you use the typeof operator on NaN, it will return "number"
-```
+
+
 console.log(typeof NaN);  // Outputs: "number"
-```
+
 
 ```
 Object.is(value1, value2);
-
 ```
 This method is used to determine if two values are the same. It's similar to the === (strict equality) operator, but with a few differences in how it handles certain special values like NaN and negative zero.
 The method returns true if the values are the same, considering special cases like NaN and negative zero.
 The method returns false if the values are not the same.
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/49456368-5a68-4e5a-9990-51dca693e1eb" width="355">
+
+
+
+
+
+
+
+
 
 
 
