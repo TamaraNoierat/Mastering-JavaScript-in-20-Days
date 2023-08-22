@@ -61,4 +61,8 @@ x = true;    // Now, x holds a boolean value, so its type is "boolean."
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/ea52833b-ea5e-4a59-8c5a-b3f42043252c"width="344">
 </div>
 
+## Undefined: Declared, but no value assigned yet.
+## Undeclared: Variable used without being declared first.
+## Uninitialized: Declared, but not given an initial value.
+
 
