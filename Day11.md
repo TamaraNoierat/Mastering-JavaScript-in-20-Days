@@ -208,6 +208,72 @@ undefined becomes NaN.
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8313da4e-0d46-4957-a8c3-5cfd365faf3d" width="333">
 
 
+### ToBoolean
+```
+console.log(Boolean(false));       // Outputs: false
+console.log(Boolean(0));           // Outputs: false
+console.log(Boolean(''));          // Outputs: false
+console.log(Boolean(null));        // Outputs: false
+console.log(Boolean(undefined));   // Outputs: false
+console.log(Boolean(NaN));         // Outputs: false
+
+console.log(Boolean(true));        // Outputs: true
+console.log(Boolean(42));          // Outputs: true
+console.log(Boolean('hello'));     // Outputs: true
+console.log(Boolean({}));          // Outputs: true
+console.log(Boolean([]));          // Outputs: true
+
+```
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e2c5ff0c-3b15-4679-b195-d6f7047b5340">
+
+
+
+## Coercion:
+Type coercion in JavaScript refers to the automatic conversion of values from one data type to another during certain operations or contexts. JavaScript is a dynamically typed language, which means that variables and values can change types on the fly, and type coercion plays a role in managing these changes.
+
+#### 1-String Concatenation:
+When you use the + operator to concatenate a string and a non-string value, the non-string value is coerced into a string before concatenation.
+```
+const number = 42;
+const message = "The answer is " + number; // Coerces number to a string
+
+```
+
+#### 2-Arithmetic Operations:
+In arithmetic operations, non-numeric values are coerced into numbers.
+
+```
+const result = "5" * 2; // Coerces "5" to the number 5 for multiplication
+
+```
+
+#### 3-Comparison Operators:
+When comparing values of different types, JavaScript coerces them to a common type before making the comparison.
+```
+console.log("10" == 10); // Coerces string "10" to the number 10 for comparison
+
+```
+
+#### 4-Truthy and Falsy Values:
+```
+if ("hello") {
+  console.log("This will be executed.");
+}
+```
+#### 5- Logical Operators:
+```
+const result = "hello" || "world"; // Returns "hello" because it's truthy
+
+```
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/cdee70e1-8a93-4f0a-989e-384d72e09f39" width=""355>
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/1c076d60-b15e-4cd8-ba95-6725ec2a4ef9" width="355">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6170a19f-3e26-425b-8c24-cfa14dd87359" width="355">
+
+
+
 
 
 
