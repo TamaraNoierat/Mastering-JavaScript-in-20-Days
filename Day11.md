@@ -289,3 +289,5 @@ const result = "hello" || "world"; // Returns "hello" because it's truthy
 
 
 
+
+
