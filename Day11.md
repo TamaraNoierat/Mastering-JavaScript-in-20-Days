@@ -267,7 +267,7 @@ const result = "hello" || "world"; // Returns "hello" because it's truthy
 
 ```
 
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/cdee70e1-8a93-4f0a-989e-384d72e09f39" width=""355>
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/cdee70e1-8a93-4f0a-989e-384d72e09f39" width="355">
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/1c076d60-b15e-4cd8-ba95-6725ec2a4ef9" width="355">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6170a19f-3e26-425b-8c24-cfa14dd87359" width="355">
