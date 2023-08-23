@@ -100,6 +100,114 @@ If the number is zero, Math.sign() returns 0.
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f421fab6-ffa1-4d6a-be0c-200bed3773c7">
 
 
+******************************
+ ## Use new:
+ ```
+const obj = new Object();
+const arr = new Array();
+const func = new Function('console.log("Hello, world!");');
+const currentDate = new Date();
+const regex = new RegExp('\\d{2}-\\d{2}-\\d{4}');
+const customError = new Error('This is a custom error message.');
+
+
+```
+RegExp(): The RegExp constructor creates a new regular expression instance for matching patterns in strings.
+Error(): The Error constructor creates a new error instance. Other more specific error constructors (like TypeError, SyntaxError, etc.) inherit from this one.
+Date(): The Date constructor creates a new date instance representing a specific point in time.
+
+
+### Don't use new:
+• String()
+• Number()
+• Boolean()
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8839bf36-cd03-47a1-9848-5016ce18cf96">
+**************************************************
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9e9f10ed-4b8e-4781-9ebb-ef6e71e7f277 "
+
+## ToPrimitive:
+ToPrimitive" refers to how a non-primitive data type (like an object) is converted to a primitive value (string, number, or boolean) when it's needed in a context where a primitive value is expected.
+```
+const obj = {
+  valueOf: function() {
+    return 42;
+  },
+  toString: function() {
+    return "Hello";
+  }
+};
+
+console.log(obj + 10); // The object is converted to a number: 42 + 10 = 52
+console.log("Value: " + obj); // The object is converted to a string: "Value: Hello"
+
+```
+
+
+## tostring
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/c3c28885-27c5-4c56-acf1-e26b91fce711" width="355">
+
+## to string(object)
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4fc961a3-bab4-4fd7-8c68-d0db1bd707dc" width="355">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/db3cedbc-74c8-40c8-b856-51518205530e" width="355">
+
+```
+const number = 42;
+const str = number.toString(); // Converts the number 42 to the string "42"
+console.log(typeof str); // Outputs: "string"
+
+```
+
+
+```
+const obj = { key: 'value' };
+const objStr = obj.toString();
+console.log(objStr); // Outputs: "[object Object]"
+```
+
+### ToNumber:
+#### 1-Primitive Values:
+Numbers: If the value is already a number, no conversion is needed.
+Strings: If the string is a valid numeric representation, it's converted to a number. If not, it becomes NaN (Not-a-Number).
+Booleans: true becomes 1 and false becomes 0.
+```
+const numStr = "42";
+const num = Number(numStr); // Converts the string "42" to the number 42
+console.log(num); // Outputs: 42
+
+```
+
+#### 2-Objects:
+Objects undergo the ToPrimitive operation first, and then the resulting primitive value (if it's not already a number) is converted to a number following the rules above.
+```
+const obj = {
+  valueOf: function() {
+    return 42;
+  }
+};
+
+const numFromObj = Number(obj); // Converts the object to the number 42
+console.log(numFromObj); // Outputs: 42
+
+```
+#### Other Values:
+null becconst nullValue = null;
+const undefinedValue = undefined;
+
+
+```
+console.log(Number(nullValue)); // Outputs: 0
+console.log(Number(undefinedValue)); // Outputs: NaN
+omes 0.
+undefined becomes NaN.
+```
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/50b2a0ae-5da3-4ec1-99d2-c5203e03b776" widyh="333">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8313da4e-0d46-4957-a8c3-5cfd365faf3d" width="333">
+
+
+
 
 
 
