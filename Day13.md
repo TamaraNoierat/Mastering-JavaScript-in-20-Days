@@ -30,8 +30,12 @@ Example: Instead of writing all your code in one big file, you can break it into
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f550335f-6eb1-4e7f-80b0-e65efd8454d9" width="355">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e2cdf516-79cf-41d8-8ba5-433429dcbb4f" width="355">
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/ce28259a-e84a-4364-b946-ca928863c2c8">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/ce28259a-e84a-4364-b946-ca928863c2c8" width="444">
+
+#### To use strict mode, you just write "use strict"; at the top of your JavaScript code. It's like saying, "Hey, let's be extra careful and make sure our code is clean and reliable."
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/cab093a2-4f1d-4a42-8b6f-186a8a493cee">
+
+#### In JavaScript, when you have a function inside another function, the inner function creates a nested scope. Variables declared inside the outer function are accessible in both the outer and inner functions. But variables declared inside the inner function are only accessible within that inner function.
 
 
 ### "undefined" and "undeclared" refer to different concepts related to variables. 
