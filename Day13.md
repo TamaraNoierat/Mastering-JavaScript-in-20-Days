@@ -50,8 +50,19 @@ Example: If you declare a variable x but don't assign any value to it, x is cons
 What it means: "Undeclared" refers to a variable that has been used in code without being formally declared using var, let, or const.
 Example: If you use a variable y without declaring it first with var, let, or const, y is considered "undeclared."
 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/db61719f-8fb9-40df-8528-7d60ea373fb2" width="444">
+
+##  Function Expressions:
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/211ea78f-80bf-42ae-bebf-3b22b419312d">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/05dae1aa-1d7d-4449-ad7a-35a87c574c1c">
+
+##### Function expressions are handy because you can store functions as variables. This makes them easy to pass around, use as arguments in other functions, or even store in objects or arrays.
 
 
+## Arrow function:
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/86b34068-3cc8-46f0-8702-8e3686689e29">
+
+##### arrow functions are like writing cooking instructions using clear and direct sentences to make your code easy to understand and maintain!
 
 
 
