@@ -68,6 +68,17 @@ console.log(y);  // This will result in an error if y is declared inside the fun
 
 ```
 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/7a285e08-2db4-44f4-b54f-b01ba87ddd67" width="355">
 
 
+## const:
+
+1-Immutable Value: Once a const variable is assigned a value, that value cannot be changed.
+2-Block Scope: const variables are block-scoped, just like variables declared with let.
+3-Declaration and Initialization: You must assign a value to a const variable when you declare it.
+4-Data Types: You can use const to declare constants for any data type, including numbers, strings, objects, arrays, and more.
+5-Reference Types: If a const variable holds a reference to an object or array, the contents of the object or array can still be modified. However, the variable itself cannot be reassigned to a new reference.
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/c842aee4-9dc3-4cf0-bf2b-31d5cd948300">
 
