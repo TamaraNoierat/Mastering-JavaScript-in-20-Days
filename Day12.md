@@ -48,15 +48,15 @@ When converting things to simpler forms, JavaScript often tries to turn them int
 
 
 
-## 1. Avoid == with 0 or "" (or even " "):
+### 1. Avoid == with 0 or "" (or even " "):
 
 When you use == with 0 or an empty string "", JavaScript can sometimes confuse them with each other or with false. So, it's better to use === instead. This way, you make sure you're checking for both the value and the type.
 
-## 2. Avoid == with non-primitives:
+### 2. Avoid == with non-primitives:
 
 When you use == with things that are not simple numbers or strings (like objects), JavaScript can do unexpected things. It tries to make them simpler, but it's better to use === to avoid surprises.
 
-## 3. Be careful with == true or == false:
+### 3. Be careful with == true or == false:
 
 Using == true or == false with == can work, but it's often clearer and safer to use === or convert to boolean (!!) to show your intention more explicitly.
 
