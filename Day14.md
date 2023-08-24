@@ -46,6 +46,7 @@ if (true) {
 }
 console.log(x);  // This will result in an error because x is not accessible here
 
+
 ```
 #### var and Function Scope:
 
