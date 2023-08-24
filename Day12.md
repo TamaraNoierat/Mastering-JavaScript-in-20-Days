@@ -4,3 +4,4 @@
 means that the dynamic typing feature in JavaScript is not a drawback or weakness; instead, it is considered one of the language's strong and valuable features.
 
 
+
