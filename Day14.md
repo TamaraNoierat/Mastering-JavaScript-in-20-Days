@@ -2,6 +2,7 @@
 
 
 
+
 # Lexical Scope:
 lexical scope means that the accessibility of a variable is determined by where the variable is declared within the source code. Variables declared in an outer scope are accessible in inner scopes, but variables declared in inner scopes are not accessible in outer scopes.
 
