@@ -103,14 +103,41 @@ When you declare a variable with let, its scope is limited to the block where it
 
 
 
-
-let does not hoist the variable declaration to the top of the scope. It's a best practice to declare let variables before using them to avoid unexpected results and errors.
-
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9b567bae-e93d-4d77-bb78-f2f79105b602" width="355">
 
 
 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/573acf03-82ad-40e9-9009-341fb0df84d4" width="444">
 
+
+## QUESTION #1
+Given the following code snippet and explain what's happening.
+```
+for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+      console.log("value of [i] is: ", i);
+    }, 100);
+}
+```
+The current output is: "value of [i] is: 5" five times.
+
+The output should be:
+
+"value of [i] is: ", 0 "value of [i] is: ", 1 "value of [i] is: ", 2 "value of [i] is: ", 3 "value of [i] is: ", 4
+
+Without changing anything in the for loop's code itself, provide a solution to fix it.
+
+## SOL:
+```
+for (var i = 0; i < 5; i++) {
+    (function(index) {
+        setTimeout(function() {
+            console.log("value of [i] is: ", index);
+        }, 100);
+    })(i);
+}
+
+```
 
 
 
