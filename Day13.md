@@ -10,6 +10,7 @@ What it is: Nested scope means having scopes inside other scopes, like rooms wit
 Imagine: It's like having smaller rooms inside bigger rooms. Things from the big room might not be easily accessible in the smaller rooms.
 Example: If you have a function inside another function, the inner function can access its own variables and the variables of the outer function, but not the other way around.
 
+
 ### 3. Hoisting:
 What it is: Hoisting moves declarations (not assignments) to the top of their scope during compilation.
 Imagine: It's like reading a storybook. You know the main characters' names before you start reading about them in the story.
