@@ -9,6 +9,8 @@ lexical scope means that the accessibility of a variable is determined by where 
 
 # dynamic scope:
 Dynamic scope is a different approach to determining variable scope compared to lexical scope. Unlike lexical scope, where scope is determined by the physical structure of the code, dynamic scope focuses on the call hierarchy of functions when determining variable accessibility.
+
+
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/3049fee0-e41a-4a1a-bd59-0be36bb33906" width="355">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/b05c1560-d5d9-4c93-ae39-cc66a5df491b" width="344">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/02fcb39c-e676-4983-b85c-770b54bb9db9" width="355">
