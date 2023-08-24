@@ -28,7 +28,23 @@ What it is: Modules let you organize your code into separate files and use only 
 Imagine: Imagine a toolbox with compartments. You only take out the tools you need for a specific task, keeping everything else organized.
 Example: Instead of writing all your code in one big file, you can break it into smaller files (modules) for different parts of your application.
 
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f550335f-6eb1-4e7f-80b0-e65efd8454d9">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f550335f-6eb1-4e7f-80b0-e65efd8454d9" width="355">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e2cdf516-79cf-41d8-8ba5-433429dcbb4f" width="355">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/ce28259a-e84a-4364-b946-ca928863c2c8">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/cab093a2-4f1d-4a42-8b6f-186a8a493cee">
+
+
+### "undefined" and "undeclared" refer to different concepts related to variables. 
+
+#### 1. Undefined:
+What it means: "Undefined" refers to a variable that has been declared but hasn't been assigned a value yet.
+Example: If you declare a variable x but don't assign any value to it, x is considered "undefined."
+
+
+#### 2. Undeclared:
+What it means: "Undeclared" refers to a variable that has been used in code without being formally declared using var, let, or const.
+Example: If you use a variable y without declaring it first with var, let, or const, y is considered "undeclared."
+
 
 
 
