@@ -274,6 +274,74 @@ const result = "hello" || "world"; // Returns "hello" because it's truthy
 
 
 
+# Exercises:
+ # Q1
+
+   Write a function called convertStringToNumber that converts a string to a number using the unary plus operator.
+   ## Solution
+
+    ```
+    function convertStringToNumber(input) {
+     if (typeof input === "string") {
+    const num = +input; 
+    if (!isNaN(num)) {
+      return num; } }
+    return { value: input, type: typeof input };}
+    
+# Q2
+Write a function called checkNaN that takes a single argument and returns true if the argument is NaN and false otherwise.
+
+```
+const checkNaN = (value) => {
+  return isNaN(value); };
+```
+# Q3
+Write a function called isEmptyValue that checks if a given input is an empty value (undefined, null, or empty string).
+
+```
+function isEmptyValue(value) {
+  return value === undefined || value === null || value === "";}
+```
+# Q4
+Write a function called compareObjects that takes 2 arguments of type "object" and compares them. If both arguments are equal, return true. If not, return false.
+```
+function compareObjects(input1, input2) {
+  if (typeof input1 !== "object" || typeof input2 !== "object") {
+    return [input1, input2];
+  }
+  const keys1 = Object.keys(input1);
+  const keys2 = Object.keys(input2);
+  if (keys1.length !== keys2.length) {
+    return false;
+  }
+ for (const key of keys1) {
+    if (input1[key] !== input2[key]) {
+      return false;
+    }
+  }
+ return true;}
+```
+# Q5
+Write a function called complexCoercion that takes a single argument and checks if its type is primitive, and if so returns a coerced value according to the rules below
+
+```
+const complexCoercion = (input) => {
+  if (typeof input !== "object" && typeof input !== "function") {
+    if (typeof input === "number") {
+      return String(input) === "0" ? false : true;
+    } else if (typeof input === "string") {
+      return input !== "" ? true : false;
+    } else if (input === null || input === undefined) {
+      return false;
+    }
+  }
+  return input;
+};
+```
+
+
+
+
 
 
 
