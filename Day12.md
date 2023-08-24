@@ -11,6 +11,7 @@ means that the dynamic typing feature in JavaScript is not a drawback or weaknes
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e405efae-2cbf-4dad-9aa4-b83c1268e97c" width="355">
 
 
+
 #### Equality        == vs. ===
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e7ea4eea-6191-4d01-8579-2ce5b9dc6206">
 
