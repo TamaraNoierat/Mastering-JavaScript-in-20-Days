@@ -1,5 +1,6 @@
 
 
+
 ### 1. Scope:
 
 What it is: Scope defines where variables and functions are accessible in your code.
