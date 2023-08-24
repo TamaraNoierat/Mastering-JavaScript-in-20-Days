@@ -26,3 +26,26 @@ Example: A function inside another function can still access the variables of th
 What it is: Modules let you organize your code into separate files and use only what you need in each part of your program.
 Imagine: Imagine a toolbox with compartments. You only take out the tools you need for a specific task, keeping everything else organized.
 Example: Instead of writing all your code in one big file, you can break it into smaller files (modules) for different parts of your application.
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f550335f-6eb1-4e7f-80b0-e65efd8454d9">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
