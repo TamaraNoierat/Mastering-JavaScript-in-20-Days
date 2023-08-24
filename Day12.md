@@ -75,6 +75,161 @@ Using == true or == false with == can work, but it's often clearer and safer to 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/3dc2958c-5089-4736-9b4c-6d2be649d797">
 
 
+# Q1:
+Given the following promisesArray, convert the array into an object using the convertToObj function.
+
+You should apply typescript types to every promise, the input of convertToObj, and the output of convertToObj.
+
+Build interfaces and types as needed.
+## solution:
+
+```
+interface HelloWorldResponse {
+  message: string;
+}
+
+interface CheckBooleanResponse {
+  result: boolean;
+}
+
+interface ReturnObjResponse {
+  x: string;
+  y: number;
+}
+
+const sayHelloWorld = new Promise<HelloWorldResponse>((resolve, reject) => {
+  resolve({ message: "Hello world!" });
+});
+
+const checkBoolean = (boolean: boolean) => new Promise<CheckBooleanResponse>((resolve, reject) => {
+  if (boolean) {
+    resolve({ result: boolean });
+  } else {
+    reject(`Input is false :(`);
+  }
+});
+
+const returnObj = new Promise<ReturnObjResponse>((resolve, reject) => {
+  resolve({
+    x: "meow",
+    y: 45,
+  });
+});
+
+const promisesArray = [sayHelloWorld, checkBoolean(true), returnObj];
+
+const convertToObj = async (array: Promise<any>[]) => {
+  const obj: Record<string, any> = {};
+
+  await Promise.all(array.map(async (promise, index) => {
+    try {
+      const result = await promise;
+      obj[`promise${index + 1}`] = result;
+    } catch (error) {
+      obj[`promise${index + 1}`] = { error: error.message };
+    }
+  }));
+
+  return obj;
+};
+
+(async () => {
+  const resultObj = await convertToObj(promisesArray);
+  console.log(resultObj);
+})();
+```
+
+# Q2
+What will be the output of the following code snippet? Pick the right choice then justify your answer with an explanation.
+```
+function testScope1() {
+  if (true) {
+    var a = 1;
+    let b = 2;
+    const c = 3;
+  }
+  console.log(a);
+  console.log(b);
+  console.log(c);
+}
+
+testScope1();
+```
+Choices:
+
+A) undefined, undefined, undefined
+B) 1, undefined, ReferenceError
+C) 1, ReferenceError, ReferenceError
+D) 1, ReferenceError
+
+
+# Solution:
+C) 1, ReferenceError, ReferenceError
+
+# Q3
+QUESTION #3:
+What will be the output of the following code snippet? Pick the right choice then justify your answer with an explanation.
+```
+function testScope2() {
+  console.log(a);
+  console.log(b);
+  console.log(c);
+  if (true) {
+    var a = 1;
+    let b = 2;
+    const c = 3;
+  }
+}
+
+testScope2();
+```
+Choices:
+
+A) undefined, ReferenceError
+B) 1, undefined, ReferenceError
+C)undefined, undefined, ReferenceError
+D) 1, ReferenceError
+
+## The correct choice is:
+
+A) undefined, ReferenceError
+
+# Q4:
+QUESTION #4:
+What will be the output of the following code snippet? Pick the right choice then justify your answer with an explanation.
+```
+function testScope3() {
+  var a = 36;
+  let b = 100;
+  const c = 45;
+
+  console.log([a, b, c]);
+
+  if (true) {
+    var a = 1;
+    let b = 2;
+    const c = 3;
+
+    console.log([a, b, c]);
+  }
+
+  console.log([a, b, c]);
+}
+
+testScope3();
+```
+choices:
+
+A) [ 36, 100, 45 ] | [ 1, 2, 3 ] | [ 36, 2, 3 ]
+B) [ 36, 100, 45 ] | [1, 2, 3 ] | [ 36, 100, 45 ]
+C) [ 36, 100, 45 ] | [ 1, 2, 3 ] | [ 1,100, 45 ]
+D) [ 36, 100, 45 ] | [ 1, 2, 3 ] | [ 1, 2, 3 ]
+
+## The correct choice is:
+
+A) [ 36, 100, 45 ] | [ 1, 2, 3 ] | [ 36, 2, 3 ]
+
+
 
 
 
