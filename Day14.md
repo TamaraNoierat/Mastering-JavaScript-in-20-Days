@@ -82,3 +82,44 @@ console.log(y);  // This will result in an error if y is declared inside the fun
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/c842aee4-9dc3-4cf0-bf2b-31d5cd948300">
 
+
+## Hoisting in JavaScript:
+##### Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is executed. This means that you can use variables and call functions before they are actually declared in the code. However, it's important to understand that only the declarations are hoisted, not the initializations.
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e65c21a7-437a-4ebd-8bf9-a2ce24c041ee" width="355">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6233b44c-190e-4046-adbb-090252acf23f" width="355">
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d755fed3-5dd4-431a-9f85-579d7a8b1d84" width="355">
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/ec14422f-e1ed-4564-941f-379728c76425" width="366">
+When you declare a variable with let, its scope is limited to the block where it's defined. Additionally, the variable is not accessible before the point where it's declared in the code. This behavior is sometimes referred to as the "temporal dead zone.
+
+*****************************************************************
+
+
+
+
+let does not hoist the variable declaration to the top of the scope. It's a best practice to declare let variables before using them to avoid unexpected results and errors.
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9b567bae-e93d-4d77-bb78-f2f79105b602" width="355">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
