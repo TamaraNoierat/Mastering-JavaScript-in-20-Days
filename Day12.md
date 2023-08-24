@@ -61,6 +61,24 @@ When you use == with things that are not simple numbers or strings (like objects
 Using == true or == false with == can work, but it's often clearer and safer to use === or convert to boolean (!!) to show your intention more explicitly.
 
 
+### *TypeScript and Flow both introduce static typing to JavaScript, helping catch type-related errors before your code runs.
+### *TypeScript is a separate language that compiles to JavaScript, while Flow is a type checker that works with regular JavaScript.
+### *Type-Aware Linting combines linting tools with type information to provide enhanced analysis of your code, improving code quality and catching errors more comprehensively.
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/347f2ad7-e673-432d-b30d-2c4bc092b057">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e95358af-ee86-4417-98e5-c45227aee54d">
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/42518a31-43e4-436f-b04c-33a7d7646a99">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/3b6d8e30-c35d-4352-a566-3c20630c1e77">
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/3dc2958c-5089-4736-9b4c-6d2be649d797">
+
+
+
+
+
+
 
 
 
