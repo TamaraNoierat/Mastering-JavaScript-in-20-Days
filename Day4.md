@@ -1,6 +1,5 @@
 # Function
 
-
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9bb22cca-2776-43ef-b051-4c4a898b8208">
 
 A function is a block of code that can be executed when called (invoked).
