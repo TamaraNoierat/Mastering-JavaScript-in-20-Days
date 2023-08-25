@@ -219,6 +219,7 @@ In this example, even though a is declared with let, accessing it before the dec
 
 
 # Events & Handlers
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/76ebce52-4d5f-45be-a2a3-f3132afd4d86">
 
 Events in JavaScript are things that happen on a webpage, like clicking a button, moving the mouse, or submitting a form. They allow you to make your webpage interactive and responsive.
 Listening for Events: You can tell your code to "listen" for specific events on certain elements. When the event occurs, your code can respond.
@@ -235,8 +236,25 @@ explian the ex: whenever you click anywhere on the web page, the "click" event w
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/47ab250c-9607-4f3a-b9d9-80993f1a2e2c">
 
 Event Handling: The code that runs when an event occurs is called the event handler. It's like a set of instructions for what to do when an event happens.
+### Event Types: There are various types of events in JavaScript, including:
 
-Event Objects: When an event occurs, it creates an object containing details about the event. This helps your code understand what happened.
+1-Mouse events (click, mouseover, mouseout, etc.)
+2-Keyboard events (keydown, keyup, keypress)
+3-Form events (submit, input, change)
+4-Window events (resize, load, scroll)
+
+### Event Listeners: You can attach event listeners to HTML elements to respond to specific events. Event listeners listen for the occurrence of an event and then execute a callback function when the event occurs.
+```
+const button = document.getElementById("myButton");
+
+// Adding a click event listener
+button.addEventListener("click", function() {
+  console.log("Button clicked!");
+});
+
+```
+
+### Event Objects: When an event occurs, it creates an object containing details about the event. This helps your code understand what happened.
 
 
 ```
@@ -250,6 +268,18 @@ button.addEventListener("click", event => {
 })
 ```
 explain:The JavaScript code uses the classList.toggle() method to add or remove the "hidden" class, effectively showing or hiding the paragraphs based on their current visibility state.
+### Removing Event Listeners: It's also possible to remove event listeners if they are no longer needed. This can be important to prevent memory leaks and unexpected behavior.
+```
+function clickHandler() {
+  console.log("Button clicked!");
+}
+
+button.addEventListener("click", clickHandler);
+
+// Removing the event listener
+button.removeEventListener("click", clickHandler);
+
+```
 
 
 
