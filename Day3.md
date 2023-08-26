@@ -281,16 +281,6 @@ console.log(test.func());
 
 
 
-
-
-
-
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/90ea592d-0f02-4a18-85af-3593114f64a2" width="555">
-
-
-
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/c6185ddb-5b04-458c-a32a-0f3970c37517">
-
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4ccf3d62-bbe1-42e9-bb93-235dcb530c33">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/01071bd8-4db0-4f2f-8a74-27308707568f" width="555">
 
