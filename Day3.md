@@ -68,8 +68,10 @@ synonyms.push("multitude");
  specified separator string. If the array has only one item, then that item will be returned without using the separator.
  
  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/a46bc130-13fa-4a3c-9d95-29baa43e6dcb" width="477">
+
  
- ```javaScript
+ ```
+javaScript
 const elements = ['Fire', 'Air', 'Water'];
 
 console.log(elements.join());
@@ -268,10 +270,10 @@ console.log(test.func());
 
 
 
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/bbb40478-ac9d-4d19-aaf1-8e4160812268" width="555">
 
 
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8217cdca-fa39-4730-9044-577aa4f27196">
+
+
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e071c5a0-effa-4fcb-835b-6fbac58e8cd0" width="555">
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6e42302d-8eb6-418b-afd5-87ffa8a04517">
