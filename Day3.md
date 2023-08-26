@@ -1,5 +1,18 @@
+# Third Day ✏️
+<br>
+
 # Array
 The Array object, as with arrays in other programming languages, enables storing a collection of multiple items under a single variable name, and has members for performing common array operations.
+
+Arrays let us keep multiple values together in a single collection
+` let synonyms = ["plethora", "array", "cornucopia"] `
+
+- Arrays can be empty, or hold a single item
+  ```
+  javaScript
+  let emptyArray = [];
+  let oneItemArray = ["lonely"];
+  ```
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/5e8a70f8-dfd0-48cd-b799-d43f83f4a5b6" width="455">
 
