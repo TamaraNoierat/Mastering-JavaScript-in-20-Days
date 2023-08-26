@@ -110,7 +110,7 @@ index => a number given to a position
   
  ### ➕ operator:
    is an operator with several different uses:
-  - when operating on strings => it concatenates the strings ` "abeer" + "belal" `.
+  - when operating on strings => it concatenates the strings .
   - it can operate on Numbers by adding them `1+1`.
   - it called an overloaded operator because it does different functions.
 
