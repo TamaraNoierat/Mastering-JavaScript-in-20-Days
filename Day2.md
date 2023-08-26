@@ -6,6 +6,8 @@
 
 <br>
    👉 typeof => tells you the type of a value.
+   here is the synatax:   typeof operand
+
    <br>
    
 ```
