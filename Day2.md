@@ -112,13 +112,23 @@ console.log(typeof 'blubber');
 - '>=' greater than or equal to
 - '<=' less than or equal to
 
+
+
+
 ### Equality operators:
+
+
 | strict     | loosey-    | meaning            |
 |------------|------------|--------------------|
 | ===        | ==         | equals             |
 | !==        | !=         | does not equal     |
 
- ### ⏳✨⚡️
+
+
+
+ ###
+
+
 | strict        | loosey-goosey | meaning           | Do these differ? How?🤔            |
 |---------------|---------------|-------------------|-----------------------------------|
 | 1 === 1       | 1 == 1        | equals            | No difference. Both are true.     |
