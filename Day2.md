@@ -21,7 +21,7 @@ typeof "" //string
 
 
 
-### js has two kind od data: 
+### js has two kind of data: 
 ####  1-PRIMITIVE (eg : string , number,boolean, undefined,null,)    
 #### 2- OBJECT(eg: document,  friend)
 
