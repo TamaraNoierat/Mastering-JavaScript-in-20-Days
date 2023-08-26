@@ -38,30 +38,43 @@ are made of a sequence of characters`"super".length //4`are in a specific order,
 index => a number given to a position
 
 #### Examples:
-
+```
 "ALOHA"[0]      // “A”
 "ALOHA".length  // 5
+```
 
 //What's the index of a specific character?if not exist will return -1
+```
 "ALOHA".indexOf("A")  //0
 "ALOHA".indexOf("a")  //-1
+```
 
 //Does this string contain some other string?
+```
 "ALOHA".includes("LOL")//false
 "ALOHA".includes("HA")  // true
+```
 
 //Does this string start with some other string?
+```
 "ALOHA".startsWith("AL") // true
+```
 
 // At what index does this substring begin?
+```
 "ALOHA".indexOf("HA") // 3
+```
 
  // Connecting strings together
+ ```
 "ALOHA" + "!"
+```
 
 //we can make all character in string small or capital 
+```
 "ALOHA".toLowerCase() // "aloha"
 "aloha".toUpperCase() //"ALOHA"
+```
 
  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/1b0bc134-ed06-47e4-89ab-ab23deaa2f31">
 
