@@ -9,7 +9,7 @@ JS : is a programming language to web site , dynamic language , to make websites
    - embedded devices
 
 
-     We write JavaScript in:
+- We write JavaScript in:
 1. The browser's js  console
 2. local text editor e.g Vs code
 3. online playground e.g codepen
