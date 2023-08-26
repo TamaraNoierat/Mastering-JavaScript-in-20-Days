@@ -80,9 +80,7 @@ abcString; // 'abc'
   ```
 
 ### mutable vs. immutable🍀:
-*"Mutable"* data can be edited (e.g. Arrays)
 
-*"Immutable"* data always stays the same (e.g. strings & other primitives)
 
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e071c5a0-effa-4fcb-835b-6fbac58e8cd0" width="555">
