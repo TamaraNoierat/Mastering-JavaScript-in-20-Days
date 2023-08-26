@@ -32,11 +32,7 @@ Arrays let us keep multiple values together in a single collection
 
 - ### .push() adds elements to the end of an array and changes the original array, while .concat() combines arrays into a new array without modifying the original arrays.
 - 
-```javaScript
-synonyms[1] = "variety";
-let lastItem = synonyms.pop();
-synonyms.push("multitude");
-```
+
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/99d72db5-0451-47c1-a2aa-e687abbb459b" width="446">
 
 - Arrays can hold any type of items, or mix and match! `let mixedArray = ["pop", 6, "squish", false, document];`
