@@ -6,6 +6,8 @@
 
 <br>
    👉 typeof => tells you the type of a value.
+   <br>
+   
 ```
 typeof "42" // string
 typeof 42 //number
