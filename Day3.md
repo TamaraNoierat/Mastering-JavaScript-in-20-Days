@@ -42,9 +42,10 @@ synonyms.push("multitude");
 
 - Arrays can hold any type of items, or mix and match! `let mixedArray = ["pop", 6, "squish", false, document];`
 - Arrays can do lots of useful tricks!
-  ```javaScript
-  
-  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/88088c52-38a5-4381-bc73-29256b244565" width="455">
+-  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/88088c52-38a5-4381-bc73-29256b244565" width="455">
+  ```
+  javaScript
+
 
   ["c", "a", "d", "b"].sort() // ['a', 'b', 'c']
   [100, 2,50].sort()   // [100, 2,50].sort()  //It converts the elements into strings and then sort them
