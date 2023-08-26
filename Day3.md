@@ -13,11 +13,15 @@ Arrays let us keep multiple values together in a single collection
   javaScript
   let emptyArray = [];
   let oneItemArray = ["lonely"];
+  
   ```
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/5e8a70f8-dfd0-48cd-b799-d43f83f4a5b6" width="455">
 
 
 
-  - Like strings, arrays have a length `synonyms.length`
+- Like strings, arrays have a length `synonyms.length`
+  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/fd7020d9-ee9a-42ca-a83d-8acf75eb428b" width="455">
+  
 - And each value has an index
    `synonyms[1]
 synonyms.indexOf("cornucopia")`
@@ -26,18 +30,21 @@ synonyms.indexOf("cornucopia")`
   `synonyms.includes("plethora")
 synonyms.includes("variety")`
 
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8215839c-7b34-4439-a58e-d3b1dd33977a" width="466"> T || F
+
 - Unlike strings, we can modify arrays
 ```javaScript
 synonyms[1] = "variety";
 let lastItem = synonyms.pop();
 synonyms.push("multitude");
 ```
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/99d72db5-0451-47c1-a2aa-e687abbb459b" width="446">
+
 - Arrays can hold any type of items, or mix and match! `let mixedArray = ["pop", 6, "squish", false, document];`
 - Arrays can do lots of useful tricks!
   ```javaScript
-  "Abeer" == ["Abeer"]      // ✅
-  "Abeer" === ["Abeer"]     // ❌
-  "Sarah" === ["Abeer"][0]  // ✅
+  
+  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/88088c52-38a5-4381-bc73-29256b244565" width="455">
 
   ["c", "a", "d", "b"].sort() // ['a', 'b', 'c']
   [100, 2,50].sort()   // [100, 2,50].sort()  //It converts the elements into strings and then sort them
@@ -47,6 +54,11 @@ synonyms.push("multitude");
 
   [1, 2, 3].concat([4, 5, 6]) // [1, 2, 3, 4, 5, 6] 
   ```
+  
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9287b387-ee3f-46db-a30c-b1a61d2be52b" width="666">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9287b387-ee3f-46db-a30c-b1a61d2be52b" width="666">
+
 
  ###  Array.prototype.join()
  The join() method creates and returns a new string by concatenating all of the elements in this array, separated by commas or a 
@@ -240,22 +252,22 @@ console.log(test.func());
    <br>
 
 
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/5e8a70f8-dfd0-48cd-b799-d43f83f4a5b6" width="455">
+
 
 
 # 
 
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/fd7020d9-ee9a-42ca-a83d-8acf75eb428b" width="455">
-
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8215839c-7b34-4439-a58e-d3b1dd33977a" width="466"> T || F
 
 
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/99d72db5-0451-47c1-a2aa-e687abbb459b" width="446">
+
+
+
+
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/35d64273-5748-4cb9-a75f-f22fb19f9b80" width="499">
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/88088c52-38a5-4381-bc73-29256b244565" width="455">
 
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9287b387-ee3f-46db-a30c-b1a61d2be52b" width="666">
+
+
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/a46bc130-13fa-4a3c-9d95-29baa43e6dcb" width="477">
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/bbb40478-ac9d-4d19-aaf1-8e4160812268" width="555">
