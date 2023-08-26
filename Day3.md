@@ -168,6 +168,10 @@ array2 // [5,2,3,4]
 
 ## **Objects:** 🌞
 ### The Object type represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. Objects can be created using the Object() constructor or the object initializer / literal syntax.
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d1bbdf69-0e70-45fe-820d-8b7c6ace94a5" width="555">
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/651285f0-c4f9-448e-b723-55ba9572e979" width="444">
 
 - Objects collect multiple values together to describe more complex data
 - Similar to how we can point at different values using variables in our code,
@@ -231,6 +235,17 @@ const dog = {
 }
 dog.speak();
 ```
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/90ea592d-0f02-4a18-85af-3593114f64a2" width="555">
+
+
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/c6185ddb-5b04-458c-a32a-0f3970c37517">
+
+
+
+
+
+
 > ###  This:⚠️⚠️⚠️
 > Its behavior is complicated & can be tricky
 > A function's this keyword behaves a little differently in JavaScript compared to other languages. It also has some differences between > strict mode and non-strict mode.
@@ -265,13 +280,10 @@ console.log(test.func());
 
 ### const for things that stay the same, and use let for things that can change.
 
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d1bbdf69-0e70-45fe-820d-8b7c6ace94a5" width="555">
 
 
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/651285f0-c4f9-448e-b723-55ba9572e979" width="444">
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6eddc93d-c3e9-4346-9a62-26cb2587010f" width="444">
 
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9782f876-9258-44c3-a238-0671c32d956f">
+
 
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/90ea592d-0f02-4a18-85af-3593114f64a2" width="555">
