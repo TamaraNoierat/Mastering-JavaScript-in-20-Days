@@ -3,10 +3,82 @@
 ### introduction:
 JS : is a programming language to web site , dynamic language , to make websites more interactive.
 
+- we can run js in:
+   - the browser
+   - the server
+   - embedded devices
+
+
+     We write JavaScript in:
+1. The browser's js  console
+2. local text editor e.g Vs code
+3. online playground e.g codepen
+
+
+### HTML& CSS& JS
+Html is the noun.
+
+CSS is the adjective, the description of the thing.
+
+JS is the verb, the action.
+<br>
+
+
+
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/0e50d255-c656-479a-ad3c-26aaef222d17">
 
-### DOM: (Document Object Model)  ,,,,,  DOM is like a map that JavaScript uses to understand and interact with the elements on a web page, making it possible to create dynamic and interactive web experiences.
+### DOM: (Document Object Model)  ,,,,, It's the tree of HTML document, structure of the page.
+DOM is like a map that JavaScript uses to understand and interact with the elements on a web page, making it possible to create dynamic and interactive web experiences.
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/98da4133-cc89-4230-a5ce-b07e1d1d1d85">
+
+
+### A simple document
+ ```
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>...</head>
+    <body>
+        <header>...</header>
+        <div id="board">...</div> 
+    </body>
+</html>
+
+```
+
+
+### Finding elements in web page:
+here's a summary of some  different ways to find elements in the (DOM) using JavaScript
+- `document.body.children`: all the elements within the body
+- getElementById(): Finds an element by its unique ID attribute
+  `
+  document.getElementById("board");
+  `
+- querySelector(): Selects the first element that matches a CSS selector
+  `
+  document.querySelector("#board")
+  `
+- querySelectorAll(): Returns a NodeList containing all elements that match a CSS selector
+   `
+  document.querySelectorAll("h1")
+  `
+- getElementsByClassName(): Retrieves a collection of elements with the specified class name.
+`
+document.getElementsByClassName("player")
+`
+- `document.getElementsByClassName("player").length` the number of elements with class="player".
+- ` document.getElementById("p1-name").textContent ` the text inside the element with id="p1-name".
+
+
+
+### Editing the DOM with js:
+these changes not persistent, because if i reload the page it's going to be different.
+
+- ` document.title = "My Page"` change the page title, note the double-quotes.
+- ` document.getElementById("p1-name").textContent = "Sofia" ` replace the text of the #p1-name element
+- ` document.getElementById("p1-name").append(" & friends") ` add to the end of the element's current text.
+
+
+
 
 
 
@@ -25,25 +97,15 @@ JS : is a programming language to web site , dynamic language , to make websites
   
 </div>
 
-**** Finding HTML Elements:::
-1-document.getElementById(id)
 
-2-document.querySelector("#example") 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/66805484-cb0d-483d-a773-b519dda1262b">
 
-3-document.getElementsByTagName(name)  // come back first one
-
-
-4- document.querySelectorAll("h1") // all h1 come back
-
-5- document.getElementsByClassName(name) //
 
 
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/4763f420-8594-4c1e-8d5c-4ccc2e994c15" width="300">
 
 
-6- document.querySelectorAll(".hh") /
 
  ### ***    .length
 
