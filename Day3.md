@@ -36,6 +36,9 @@ synonyms.includes("variety")`
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/8215839c-7b34-4439-a58e-d3b1dd33977a" width="466"> T || F
 
 - Unlike strings, we can modify arrays
+
+- ### .push() adds elements to the end of an array and changes the original array, while .concat() combines arrays into a new array without modifying the original arrays.
+- 
 ```javaScript
 synonyms[1] = "variety";
 let lastItem = synonyms.pop();
@@ -102,17 +105,12 @@ abcString; // 'abc'
 
 *"Immutable"* data always stays the same (e.g. strings & other primitives)
 
-Do these do the same thing?❓
-```javaScript
-let numbers1 = [1, 2, 3];
-let result1 = numbers1.push(4); 
-numbers1;  // [1, 2, 3, 4]
- 
-let numbers2 = [1, 2, 3];
-let result2 = numbers2.concat([4]);
-numbers2; // [1, 2, 3]
-```
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e071c5a0-effa-4fcb-835b-6fbac58e8cd0" width="555">
+
+<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6e42302d-8eb6-418b-afd5-87ffa8a04517">
 <br>
+
 
 > ###  **See this** 💥
 > Some actions "**mutate**" an array (e.g. `oldArray.push(newValue)`)
@@ -169,6 +167,8 @@ array2 // [5,2,3,4]
    <br>
 
 ## **Objects:** 🌞
+### The Object type represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. Objects can be created using the Object() constructor or the object initializer / literal syntax.
+
 - Objects collect multiple values together to describe more complex data
 - Similar to how we can point at different values using variables in our code,
 - objects let us point at related values using properties in the object.
@@ -263,29 +263,10 @@ console.log(test.func());
 
 
 
-
-# 
-
-
-
-
-
-
-
-
-
-
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e071c5a0-effa-4fcb-835b-6fbac58e8cd0" width="555">
-
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6e42302d-8eb6-418b-afd5-87ffa8a04517">
-
-### .push() adds elements to the end of an array and changes the original array, while .concat() combines arrays into a new array without modifying the original arrays.
-
 ### const for things that stay the same, and use let for things that can change.
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d1bbdf69-0e70-45fe-820d-8b7c6ace94a5" width="555">
 
-### The Object type represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. Objects can be created using the Object() constructor or the object initializer / literal syntax.
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/651285f0-c4f9-448e-b723-55ba9572e979" width="444">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/6eddc93d-c3e9-4346-9a62-26cb2587010f" width="444">
