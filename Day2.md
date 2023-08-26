@@ -63,6 +63,7 @@ index => a number given to a position
 "ALOHA".toLowerCase() // "aloha"
 "aloha".toUpperCase() //"ALOHA"
 
+ <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/1b0bc134-ed06-47e4-89ab-ab23deaa2f31">
 
  
  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/1b0bc134-ed06-47e4-89ab-ab23deaa2f31">
