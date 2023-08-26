@@ -38,7 +38,7 @@ are made of a sequence of characters`"super".length //4`are in a specific order,
 index => a number given to a position
 
 #### Examples:
-```
+
 "ALOHA"[0]      // “A”
 "ALOHA".length  // 5
 
