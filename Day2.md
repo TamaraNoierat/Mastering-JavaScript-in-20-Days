@@ -19,8 +19,6 @@ typeof "" //string
 
 
 
-#### typeof tells you type of value
-
 
 
 ### js has two kind od data: 
