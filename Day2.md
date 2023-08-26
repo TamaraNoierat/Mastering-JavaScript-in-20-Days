@@ -157,6 +157,16 @@ console.log(typeof 'blubber');
 
 
 ### Nullish coalescing operator (??):🚩
+```
+const result = leftOperand ?? rightOperand;
+
+```
+If leftOperand is not null or undefined, the value of leftOperand will be assigned to result.
+If leftOperand is null or undefined, the value of rightOperand will be assigned to result.
+
+
+
+
 The nullish coalescing (??) operator is a logical operator that returns its right-hand side operand when its left-hand side operand is `null` or `undefined`, and otherwise returns its left-hand side operand.
 
 ## Expressions ☄️
