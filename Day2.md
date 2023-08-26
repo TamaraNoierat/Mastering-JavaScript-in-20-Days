@@ -1,6 +1,21 @@
-# value & data type
+# secound Day ✏️
 
+# value & data type
+<br>
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/138c49b1-7cb2-4028-bff1-240948b25213" width="455">
+
+<br>
+   👉 typeof => tells you the type of a value.
+```
+typeof "42" // string
+typeof 42 //number
+typeof false //boolean
+typeof null //object
+typeof "some string".length //number
+typeof "" //string
+```
+
+
 
 #### typeof tells you type of value
 
@@ -15,6 +30,37 @@
 *** null is: when you're purposely saying there's no value there.
 
  ### .length:  returns the length of a string.
+### String 🔻
+are made of a sequence of characters`"super".length //4`are in a specific order, each gets a number, starting at 0 called "index".
+index => a number given to a position
+
+#### Examples:
+```
+"ALOHA"[0]      // “A”
+"ALOHA".length  // 5
+
+//What's the index of a specific character?if not exist will return -1
+"ALOHA".indexOf("A")  //0
+"ALOHA".indexOf("a")  //-1
+
+//Does this string contain some other string?
+"ALOHA".includes("LOL")//false
+"ALOHA".includes("HA")  // true
+
+//Does this string start with some other string?
+"ALOHA".startsWith("AL") // true
+
+// At what index does this substring begin?
+"ALOHA".indexOf("HA") // 3
+
+ // Connecting strings together
+"ALOHA" + "!"
+
+//we can make all character in string small or capital 
+"ALOHA".toLowerCase() // "aloha"
+"aloha".toUpperCase() //"ALOHA"
+
+
  
  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/1b0bc134-ed06-47e4-89ab-ab23deaa2f31">
  indexof : find the first char in the string
@@ -28,21 +74,136 @@
  <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e18f8c2b-134d-49dc-b20b-aacaa2ccd1a2">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9c29a1ac-8869-4a80-b1bc-c5a30042ed19">
 
-# Operation
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/d3f2ba44-90b6-4a08-b903-45fd662fd6de" width="455">
-
-# Expressions
-# Declaring and Assining Variables
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/32084397-007b-4244-a245-c8348e8a1527" width="455">
-
-#### The let declaration declares re-assignable, block-scoped local variables, optionally initializing each to a value.
-
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/ef143e47-e316-4bb2-8885-d026893cbf46">
-
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/e5403d75-722b-406e-8a86-1312269ba0a2">
+------------------------------------------------------------------------------------------------
 
 
-### The const declaration declares block-scoped local variables. The value of a constant can't be changed through reassignment using the assignment operator, but if a constant is an object, its properties can be added, updated, or removed.
+ ## Operators ➗🤔 
+
+### Arithmetic operators
+-  '+' add
+-  '-' subtract
+-  '*' multiply
+-  '/' divide
+
+  
+ ### ➕ operator:
+   is an operator with several different uses:
+  - when operating on strings => it concatenates the strings ` "abeer" + "belal" `.
+  - it can operate on Numbers by adding them `1+1`.
+  - it called an overloaded operator because it does different functions.
+
+ 
+ 
+### typeof:
+The typeof operator returns a string indicating the type of the operand's value.
+```
+console.log(typeof 42);
+// Expected output: "number"
+
+console.log(typeof 'blubber');
+// Expected output: "string"
+```
+
+### Comparison operators  ⚡️
+- '>' greater than
+- '<' less than
+- '>=' greater than or equal to
+- '<=' less than or equal to
+
+### Equality operators:
+| strict     | loosey-    | meaning            |
+|------------|------------|--------------------|
+| ===        | ==         | equals             |
+| !==        | !=         | does not equal     |
+
+ ### ⏳✨⚡️
+| strict        | loosey-goosey | meaning           | Do these differ? How?🤔            |
+|---------------|---------------|-------------------|-----------------------------------|
+| 1 === 1       | 1 == 1        | equals            | No difference. Both are true.     |
+| "1" === "1"   | "1" == "1"    | equals            | No difference. Both are true.     |
+| 1 === "1"     | 1 == "1"      | does not equal    | Yes, difference. Strict comparison checks both value and type, so 1 (number) is not equal to "1" (string). Loose comparison only checks the value, so it considers them equal. |
+
+
+### Nullish coalescing operator (??):🚩
+The nullish coalescing (??) operator is a logical operator that returns its right-hand side operand when its left-hand side operand is `null` or `undefined`, and otherwise returns its left-hand side operand.
+
+## Expressions ☄️
+an expression evaluates (aka resolves) to a value, more like content.
+```
+4 / 2 * 10
+"Frontend" + "Masters"
+5 > 4 !== 3 > 4
+```
+
+ ## Variables: 
+ A variable is a named reference to a valu—thatt way an unpredictable value can be accessed through a predetermined name.
+ - Variables let us remember values.
+ - as pointer points to specific value.
+
+  ### Declaring a variable
+  - via var keyword ` var name;` 
+  - via let keyword ` let name;`
+  - via const keyword ` const name;` => const declares & assigns a "constant", aka a variable that can't be changed 
+
+    ### Variable names
+   -  camelCase 👉 'variables contain values? e.g: `let FirstName;`
+   -  lso_valid_but_less_common
+   -  ddbut_Technicallyfine2
+
+### Assigning a variable:
+" = "  operator here means assign value to variable 
+```
+let myDeclaredVariable;
+myDeclaredVariable = "so value, much wow";
+
+let myAssignedVariable = "such efficient, amaze"; //Declaring & assigning at once
+
+let x = null;// i want this variable to be empty
+let variable; //this will take undefined "nothing"
+```
+    
+
+ 
+ ## **Statements vs. Expressions** 👩
+ ### An expression "asks" JS for a value
+
+
+```
+myAssignedVariable  // what is the value of my variable
+6 + 4               // what is the value of this summation
+document.getElementById("board")
+```
+
+A **statement**  "tells" JS to do something, actions we want JS to do it
+
+```
+// e.g: declare/assign a variable
+let ten = 6 + 4;
+myDeclaredVariable = "new value";
+let board = document.getElementById("board");
+
+function add(x, y) {
+    return x + y;
+}
+
+let biggest;
+if (5 > 4) {
+    biggest = 5;
+} else {
+    biggest = 4;
+}
+for (let character of "string") {
+    console.log(character);
+}
+```
+ 
+
+
+
+
+
+
+
 
 # Exercises:::
 # Q1:
