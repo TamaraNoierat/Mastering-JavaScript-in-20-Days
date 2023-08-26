@@ -24,10 +24,7 @@ Arrays let us keep multiple values together in a single collection
 
 - Like strings, arrays have a length `synonyms.length`
   <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/fd7020d9-ee9a-42ca-a83d-8acf75eb428b" width="455">
-  
-- And each value has an index
-   `synonyms[1]
-synonyms.indexOf("cornucopia")`
+
 
 - Also like strings, we can check if an array contains a certain value
   `synonyms.includes("plethora")
