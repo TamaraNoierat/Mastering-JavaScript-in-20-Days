@@ -64,6 +64,9 @@ synonyms.push("multitude");
  ###  Array.prototype.join()
  The join() method creates and returns a new string by concatenating all of the elements in this array, separated by commas or a 
  specified separator string. If the array has only one item, then that item will be returned without using the separator.
+ 
+ <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/a46bc130-13fa-4a3c-9d95-29baa43e6dcb" width="477">
+ 
  ```javaScript
 const elements = ['Fire', 'Air', 'Water'];
 
@@ -262,14 +265,6 @@ console.log(test.func());
 
 
 
-
-
-
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/35d64273-5748-4cb9-a75f-f22fb19f9b80" width="499">
-
-
-
-<img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/a46bc130-13fa-4a3c-9d95-29baa43e6dcb" width="477">
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/bbb40478-ac9d-4d19-aaf1-8e4160812268" width="555">
 
