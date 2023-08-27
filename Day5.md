@@ -192,8 +192,10 @@ const endInY = spices.filter(s=>s.nickname.endsWith("y"))
 ```
 ### output:
 names: ["Emma", "Geri", "Mel B", "Mel C", "Victoria"]
+<br>
 endInY: [
-  {name: "Geri", nickname: "Ginger"},
+  {name: "Geri", nickname: "Ginger"}, 
+  <br>
   {name: "Mel C", nickname: "Sporty"}
 ]
 
