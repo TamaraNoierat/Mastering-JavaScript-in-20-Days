@@ -1,4 +1,9 @@
-# Function
+
+# Forth Day
+
+
+# Function:
+ values are things, variables point to things, **functions** do things.
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/9bb22cca-2776-43ef-b051-4c4a898b8208">
 
@@ -7,7 +12,12 @@ Functions are used to perform specific tasks or calculations.
 Functions can accept input values (parameters) and return an output value.
 
 
-# Parameters:
+# Parameters & Arguments:
+
+- parameters are the inputs a function expects,
+- arguments are the actual values the function is called with,
+- Parameters should be named like variables, and behave like variables within the function body
+- JS is pretty "loosey-goosey" about missing/extra arguments`getRandomNumber("unexpected")`it will give result
 
 
 Parameters are variables listed in the function's parentheses when defining it.
@@ -35,7 +45,21 @@ When you call a function, you provide arguments that match the order and number 
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/eb895c34-a95c-45a9-9814-d9e06c1e3abf">
 
-# Arrow function
+# Arrow function:
+The => "fat arrow" lets us create an unnamed function without much code aka an arrow function `(x, y) => x + y`
+
+### setAttribute() & removeAttribute() methods 📋✏️📌
+`setAttribute :` Sets the value of an attribute on the specified element. If the attribute already exists, the value is updated; otherwise a new attribute is added with the specified name and value.
+
+```
+
+
+setAttribute(name, value)
+```
+ `removeAttribute:` removes the attribute with the specified name from the element.
+ ```
+removeAttribute(attrName)
+```
 
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/f851e575-e1e5-40ca-8302-832495561923" width="555">
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/38ad7e99-7945-44cb-97a8-26b05437f496" width="555">
@@ -117,6 +141,32 @@ console.log(bankruptcy);
 #### Scopes are nested within the program The widest scope is the global scope ,Each function gets its own new scope within the scope where it was declared
 
 ### Scope in JavaScript refers to where you can access variables. It determines the visibility and lifespan of variables within your code.
+
+- Scopes are nested within the program
+- The widest scope is the global scope
+- Each function gets its own new scope within the scope where it was declared
+- Within each scope, you can access variables declared in a wider scope (e.g. global scope)
+   But not those declared in a narrower scope (e.g. function scope)
+
+
+narrowerScope();
+console.log(localVariable);
+```
+> Variables declared with let can be modified from within a narrower scope
+> This can be useful, but also dangerous!
+ ```javaScript
+ let feeling = "free";
+function trap() {
+    feeling = "boxedIn";
+}
+trap();
+console.log(feeling); //boxedIn
+ ```
+
+
+
+
+  
 ```
 let planet = "Jupiter";
 function scopeOut() {
@@ -217,7 +267,39 @@ In this example, even though a is declared with let, accessing it before the dec
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/98b4324d-7e43-4ba5-8fb0-7adb15db85a5">
 
 
-# Events & Handlers
+# Events & Handlers:
+
+## Events & Handlers:
+- The web browser fires events when certain things happen on the page
+For example, when the user clicks somewhere on the page, a click event is fired
+- We can detect events with JS using an event listener
+The `.addEventListener()` method lets us listen for events on a DOM element
+
+```javaScript
+ .addEventListener() takes 2 parameters:
+- The name of the event to listen to (e.g. "click")
+- A handler function that JS calls when that event is fired on this element
+
+document.addEventListener("click", () => {
+    console.log("clicked")
+});
+```
+JS passes an event object to the handler function with information about the event
+If we accept this as a parameter, we can use it to get details
+```
+document.addEventListener("click", (event) => {
+    console.log(event);
+});
+```
+
+### event.target: ✨⚡️
+Is the element the event fired on (in this case, which element was clicked)
+```javaScript
+document.addEventListener("click", (event) => {
+    console.log(event.target);
+});
+```
+<br>
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/76ebce52-4d5f-45be-a2a3-f3132afd4d86">
 
 Events in JavaScript are things that happen on a webpage, like clicking a button, moving the mouse, or submitting a form. They allow you to make your webpage interactive and responsive.
