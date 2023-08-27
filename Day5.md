@@ -190,6 +190,13 @@ const spices = [
 const names = spices.map(s=>s.name)
 const endInY = spices.filter(s=>s.nickname.endsWith("y"))
 ```
+### output:
+names: ["Emma", "Geri", "Mel B", "Mel C", "Victoria"]
+endInY: [
+  {name: "Geri", nickname: "Ginger"},
+  {name: "Mel C", nickname: "Sporty"}
+]
+
 
 ## Spread (...): 💎
 Is another neat trick for iterating over arrays,
