@@ -1,6 +1,7 @@
 #  seventh Day  ✏️
 
 
+
 ## JavaScript Principles  🎯🚀 
 When JavaScript code runs, it:
 1. Goes through the code line-by-line and runs/ ’executes’ each line - known as the **thread of execution**
