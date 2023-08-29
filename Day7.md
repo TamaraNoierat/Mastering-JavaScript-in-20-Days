@@ -1,6 +1,31 @@
-# JavaScript principles
+#  seventh Day 
+
+
+## JavaScript Principles  🎯🚀 
+When JavaScript code runs, it:
+1. Goes through the code line-by-line and runs/ ’executes’ each line - known as the **thread of execution**
+2. Saves ‘data’ like strings and arrays so we can use that data later - in its memory. We can even save code (‘functions’)
+   
 JavaScript principles are like the basic rules or ideas that help you understand how JavaScript works. Imagine you're learning to play a new game. The game has some fundamental principles that guide how you play and understand it. Similarly, JavaScript has principles that guide how you write and use code in this programming language. These principles make sure your code behaves as you expect and helps you build useful and interactive things on websites.
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/037a20ed-01fb-4432-a86c-686a3035f44f">
+
+
+
+**Execution context:**
+Created to run the code of a 
+function - has 2 parts (we’ve 
+already seen them!)
+- Thread of execution
+- Memory
+
+
+
+
+
+
+
+
+
 
 
 # Call stack
@@ -14,12 +39,69 @@ removes it from call stack
 - Whatever is top of the call stack
 - that’s the function we’re
 currently running
+
+Call stack: 🔅
+  is a mechanism for an interpreter to keep track of its place in a script that calls multiple functions — what function is currently being run and what functions are called from within that function
+**JavaScript keeps track of what function is currently running (where’s the thread of execution)**
+
+e.g:
+When a script calls a function, the interpreter adds it to the call stack and then starts carrying out the function.
+
+
+Run a function - add to call stack
+Finish running the function - JS removes it from call stack
+Whatever is top of the call stack - that’s the function we’re currently running
+
+
+
+
+
 ## Generalizing functions
 By generalizing functions, you make your code more adaptable to different scenarios, reduce repetition, and create a more organized and modular codebase. This approach is essential for writing maintainable and scalable JavaScript applications.
+----
+----In our code we it is more readable and usable to make it follow the DRY "don't repeat yourself" concept, and avoid repetition
+We can generalize the function to make it reusable, we use parameters to apply this principle
+‘Parameters’ (placeholders) mean we don’t need to decide what data to run our 
+functionality on until we run the function 
+- Then provide an actual value (‘argument’) when we run the function
+
 
 
 ### We could generalize our function - So we pass in our specific
 <img src="https://github.com/TamaraNoierat/Mastering-JavaScript-in-20-Days/assets/130704887/fb4c9491-a765-4d73-8789-4914581dce64">
+
+## First class objects🤔
+
+Functions in javascript = first-class objects
+They can co-exist with and can be treated like any other javascript object
+1. Assigned to variables and properties of other objects
+2. Passed as arguments into functions
+3. Returned as values from functions
+
+
+### Higher Order Function VS callback function✨☄️:
+
+| Term                   | Explanation                                                                                     |
+|------------------------|-------------------------------------------------------------------------------------------------|
+| Callback Function      | The function we insert and pass as an argument. It's the function that will be called later when certain conditions are met. |
+| Higher-Order Function  | The outer function that accepts another function as an argument. It's a function that can manipulate or use the passed callback function. |
+
+
+### Anonymous and arrow functions 🤔
+- Improve immediate legibility of the code
+- But at least for our purposes here they are ‘syntactic sugar
+- we’ll see their full effects later - Understanding how they’re working under the hood is vital to avoid confusion
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## How was this possible?
