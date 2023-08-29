@@ -1,4 +1,4 @@
-#  seventh Day 
+#  seventh Day  ✏️
 
 
 ## JavaScript Principles  🎯🚀 
